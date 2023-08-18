@@ -1,8 +1,6 @@
 # Project_3
 Group project #3
 
-Project 3
-
 https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/ 
 
 Data for May - July 2023
