@@ -7,8 +7,6 @@
 // const dataPromise = d3.json(url);
 // console.log("Data Promise: ", dataPromise);
 
-
-
 function createMap() {
     // Create the tile layer that will be the background of our map.
     let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

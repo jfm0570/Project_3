@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bellybutton Biodiversity</title>
+  <title> US Summer 2023 weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,22 +18,32 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Summer’s weather record for the US</h1>
+        <h1>Summer weather analysis for the US</h1>
         <p>View of daily weather conditions in 12 cities across the US</p>
         <p>May 2023 - July 2023</p>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <div class="well">
+          <h5>Select city:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="well">
+          <h5> Select Temperature or Precipitation:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+    </div>
+    
     <div class="row">
       <div class="col-md-12">
         <div id="map"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="well">
-          <h5>US cities:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
       </div>
     </div>
   </div>
