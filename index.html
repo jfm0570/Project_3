@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin="" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
 
@@ -28,14 +29,30 @@
       <div class="col-md-5">
         <div class="well">
           <h5>Select city:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)">
+            <option value="Atlanta">Atlanta</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Denver">Denver</option>
+            <option value="Houston">Houston</option>  
+            <option value="Kansas_City">Kansas City</option>  
+            <option value="Los_Angeles">Los Angeles</option>  
+            <option value="Miami">Miami</option>  
+            <option value="Minneapolis">Minneapolis</option>
+            <option value="New_York">New York</option>
+            <option value="Phoenix">Phoenix</option>  
+            <option value="San_Francisco">San Francisco</option>  
+            <option value="Seattle">Seattle</option>
+          </select>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="well">
           <h5> Select Temperature or Precipitation:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)">
+            <option value="Temperature">Temperature</option>
+            <option value="Precipitation">Precipitation</option>  
+          </select>
         </div>
       </div>
 
@@ -46,11 +63,12 @@
         <div id="map"></div>
       </div>
     </div>
+  
+    <!-- Plot to add data for temperature vs month for each city -->
+    <div id="Temperature_plot"></div>
   </div>
 
-
-
-
+  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <!-- D3 JavaScript -->
