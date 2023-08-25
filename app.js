@@ -48,5 +48,14 @@ function createMap() {
     Plotly.newPlot("Temperature_plot", data);
   }
 
+  function UV_chart() {
+    data = [{
+      x: [1, 2, 3, 4, 5],
+      y: [1, 2, 4, 8, 16] }];
+  
+    Plotly.newPlot("UV_plot", data);
+  }
+
 createMap()
 Temperature_chart()
+UV_chart()
