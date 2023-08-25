@@ -1,12 +1,6 @@
 
-// // Project #3
-// // Add url
-// const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
 
-// // Promise Pending
-// const dataPromise = d3.json(url);
-// console.log("Data Promise: ", dataPromise);
-
+// Map function
 function createMap() {
     // Create the tile layer that will be the background of our map.
     let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -18,7 +12,6 @@ function createMap() {
       "Street Map": streetmap
     };
   
-    
     // Create the map object with options.
     let map = L.map("map", {
       center: [37.8, -96],
@@ -28,6 +21,7 @@ function createMap() {
 
   }
 
+  // Function for the drop down - I left/commented out code that I obtained from an assingment/activity - I was hoping that can be helpful for you 
   function optionChanged(id){
     // let dropdownMenu = d3.select("#selDataset");
     // Assign the value of the dropdown menu option to a letiable
@@ -39,7 +33,7 @@ function createMap() {
     // demographics(data_full,id_selected)
   }
 
-  // Plot to add data for temperature vs month for each city
+  // Plot to add data for temperature vs month for each city - added random nubers to test if the graph was working
   function Temperature_chart() {
     data = [{
       x: [1, 2, 3, 4, 5],
@@ -48,6 +42,7 @@ function createMap() {
     Plotly.newPlot("Temperature_plot", data);
   }
 
+  // Plot to add data for uv vs month for each city
   function UV_chart() {
     data = [{
       x: [1, 2, 3, 4, 5],
