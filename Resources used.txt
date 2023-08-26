@@ -1,0 +1,7 @@
+Resources used:
+
+- Obtained code from my own challenges 14 and 15
+https://leafletjs.com/examples.html
+https://stackoverflow.com/questions/64422676/issue-with-leaflet-js-map-not-fitting-inside-a-div-element
+https://stackoverflow.com/questions/22904102/how-to-change-the-background-color-of-jumbrotron
+https://www.w3schools.com/tags/tag_select.asp
