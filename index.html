@@ -12,10 +12,39 @@
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin="" />
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-</head>
+  <!-- </head> -->
 
+  <!-- Code that contains the header/title   -->
+  <!-- <body id="custom-bg"> -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+ 
+ <style>
+    /* Your additional CSS styles here */
+    /* Style for the dropdown container */
+    .dropdown-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f9f9f9;
+    }
+
+    /* Style for the dropdown label and select element */
+    .dropdown-label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .dropdown-select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  </style>
+</head>
 <!-- Code that contains the header/title   -->
-<body id="custom-bg">
+<body>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -25,9 +54,16 @@
       </div>
     </div>
 
-  <!-- I created this part so you can add the temperature and UV rays plots here by selecting the city. You can visualize  -->
-  <!-- the graphs for both conditions in different plots (plots are below the map)  -->
+    <!-- Date Dropdown -->
     <div class="row">
+      <div class="col-md-5">
+        <div class="dropdown-container">
+          <label class="dropdown-label" for="dateDropdown">Select Date:</label>
+          <select class="dropdown-select" id="dateDropdown"></select>
+        </div>
+      </div>
+
+      <!-- City Dropdown -->
       <div class="col-md-5">
         <div class="well">
           <h5>Select city:</h5>
@@ -47,7 +83,17 @@
           </select>
         </div>
       </div>
+    </div>
 
+    <!-- Map -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="map" style="width: 100%; height: 500px;"></div>
+      </div>
+    </div>
+
+   
+    <div class="row">
   <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
   <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
       <div class="col-md-5">
@@ -92,4 +138,28 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <!-- Our JavaScript -->
   <script type="text/javascript" src="app.js"></script>
+
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Temperature Chart -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="temperatureChart"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- D3 JavaScript -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Add this to create Plotly graph -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- Your JavaScript -->
+  <script type="text/javascript" src="app.js"></script>
 </body>
+
+</html>
