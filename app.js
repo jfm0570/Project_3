@@ -8,7 +8,7 @@
         }).addTo(map);
 
         // Load CSV data using D3.js
-        d3.csv("/Users/dennysurdiales/Desktop/Project_3/output_data/temp_humidity.csv").then(data => {
+        d3.csv("/Users/dennysurdiales/Desktop/project 3 dennys /output_data/temp_humidity.csv").then(data => {
             // Extract unique dates from the CSV data
             const uniqueDates = [...new Set(data.map(d => d.date))];
 
@@ -43,18 +43,21 @@
             });
 
             // Load CSV data and create markers for the selected date
-            d3.csv("/Users/dennysurdiales/Desktop/Project_3/output_data/temp_humidity.csv").then(data => {
+            d3.csv("output_data/temp_humidity.csv").then(data => {
                 const selectedData = data.filter(d => d.date === selectedDate);
 
-                selectedData.forEach(d => {
-                    const lat = +d.latitude;
-                    const lon = +d.longitude;
-                    const feelslike = +d.feelslike;
+               
+        selectedData.forEach(d => {
+          const lat = +d.latitude;
+          const lon = +d.longitude;
+          const feelslike = +d.feelslike;
+          const humidity = +d.humidity;
+          const city = d.city;
 
-                    const marker = L.marker([lat, lon])
-                        .addTo(map)
-                        .bindPopup(`City: ${d.city}<br>Feels Like: ${feelslike.toFixed(2)}°C`);
-                });
+          const marker = L.marker([lat, lon])
+              .addTo(map)
+              .bindPopup(`City: ${city}<br>Feels Like: ${feelslike.toFixed(2)}°F<br>Humidity: ${humidity}%`);
+      });
             }).catch(error => {
                 console.error("Error loading data:", error);
             });
