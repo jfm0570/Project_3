@@ -7,14 +7,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> US Summer 2023 weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin="" />
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <style>
+    /* Your additional CSS styles here */
+    /* Style for the dropdown container */
+    .dropdown-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f9f9f9;
+    }
+
+    /* Style for the dropdown label and select element */
+    .dropdown-label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .dropdown-select {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  </style>
 </head>
 <!-- Code that contains the header/title   -->
-<body id="custom-bg">
+<body>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -23,17 +43,18 @@
         <p>May 2023 - July 2023</p>
       </div>
     </div>
-<body>
-  <div id="map" style="width: 100%; height: 500px;"></div>
-  <div>
-    <label for="dateDropdown">Select Date: </label>
-    <select id="dateDropdown"></select>
+    <div class="dropdown-container">
+      <label class="dropdown-label" for="dateDropdown">Select Date:</label>
+      <select class="dropdown-select" id="dateDropdown"></select>
+    </div>
   </div>
+
+  <div id="map" style="width: 100%; height: 500px;"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
- <!-- Our JavaScript -->
- <script type="text/javascript" src="app.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
