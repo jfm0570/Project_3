@@ -13,7 +13,6 @@
   crossorigin="" />
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
-
 <!-- Code that contains the header/title   -->
 <body id="custom-bg">
   <div class="container">
@@ -24,77 +23,17 @@
         <p>May 2023 - July 2023</p>
       </div>
     </div>
+<body>
+  <div id="map" style="width: 100%; height: 500px;"></div>
+  <div>
+    <label for="dateDropdown">Select Date: </label>
+    <select id="dateDropdown"></select>
+  </div>
 
-  <!-- I created this part so you can add the temperature and UV rays plots here by selecting the city. You can visualize  -->
-  <!-- the graphs for both conditions in different plots (plots are below the map)  -->
-    <div class="row">
-      <div class="col-md-5">
-        <div class="well">
-          <h5>Select city:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)">
-            <option value="Atlanta">Atlanta</option>
-            <option value="Chicago">Chicago</option>
-            <option value="Denver">Denver</option>
-            <option value="Houston">Houston</option>  
-            <option value="Kansas_City">Kansas City</option>  
-            <option value="Los_Angeles">Los Angeles</option>  
-            <option value="Miami">Miami</option>  
-            <option value="Minneapolis">Minneapolis</option>
-            <option value="New_York">New York</option>
-            <option value="Phoenix">Phoenix</option>  
-            <option value="San_Francisco">San Francisco</option>  
-            <option value="Seattle">Seattle</option>
-          </select>
-        </div>
-      </div>
- <!-- <div>
-        <label for="dateDropdown">Select Date: </label>
-        <select id="dateDropdown"></select>
-    </div>
-    <div id="map" style="width: 100%; height: 500px;"></div> -->
-
-  <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
-  <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
-      <div class="col-md-5">
-        <div class="well">
-          <h5> Select Temperature or Precipitation:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)">
-            <option value="Temperature">Temperature</option>
-            <option value="Precipitation">Precipitation</option>  
-          </select>
-        </div>
-      </div>
-
-    </div>
-    
-    <div class="row">
-      <div class="col-md-12">
-        <div id="map"></div>
-      </div>
-    </div>
-  
-    <!-- Plot to add data for temperature vs month for each city -->
-    <div class="row">
-      <div class="col-md-6">
-        <div class="well">
-        <div id="Temperature_plot"></div>
-      </div>
-      </div>
-
-    <!-- Plot to add data for UV vs month for each city -->
-        <div class="col-md-6">
-          <div class="well">
-          <div id="UV_plot"></div>
-        </div>
-        </div>
-
-    </div>
-
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <!-- D3 JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="app.js"></script>
+ <!-- Our JavaScript -->
+ <script type="text/javascript" src="app.js"></script>
 </body>
+
+</html>
