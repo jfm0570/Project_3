@@ -1,56 +1,77 @@
 
+        // Initialize the map
+        const map = L.map("map").setView([37.8, -96], 5); // Adjust initial view
 
-// Map function
+        // Add a tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Load CSV data using D3.js
+        d3.csv("/Users/dennysurdiales/Desktop/Project_3/output_data/temp_humidity.csv").then(data => {
+            // Extract unique dates from the CSV data
+            const uniqueDates = [...new Set(data.map(d => d.date))];
+
+            // Populate the dropdown with unique dates
+            const dropdown = document.getElementById("dateDropdown");
+            uniqueDates.forEach(date => {
+                const option = document.createElement("option");
+                option.value = date;
+                option.text = date;
+                dropdown.appendChild(option);
+            });
+
+            // Initialize the map with default data (first date in the dropdown)
+            updateMap(uniqueDates[0]);
+
+            // Listen for changes in the dropdown
+            dropdown.addEventListener("change", event => {
+                const selectedDate = event.target.value;
+                updateMap(selectedDate);
+            });
+        }).catch(error => {
+            console.error("Error loading data:", error);
+        });
+
+        // Function to update the map with "feels like" data for the selected date
+        function updateMap(selectedDate) {
+            // Clear existing markers from the map
+            map.eachLayer(layer => {
+                if (layer instanceof L.Marker) {
+                    map.removeLayer(layer);
+                }
+            });
+
+            // Load CSV data and create markers for the selected date
+            d3.csv("/Users/dennysurdiales/Desktop/Project_3/output_data/temp_humidity.csv").then(data => {
+                const selectedData = data.filter(d => d.date === selectedDate);
+
+                selectedData.forEach(d => {
+                    const lat = +d.latitude;
+                    const lon = +d.longitude;
+                    const feelslike = +d.feelslike;
+
+                    const marker = L.marker([lat, lon])
+                        .addTo(map)
+                        .bindPopup(`City: ${d.city}<br>Feels Like: ${feelslike.toFixed(2)}°C`);
+                });
+            }).catch(error => {
+                console.error("Error loading data:", error);
+            });
+        }
+
 function createMap() {
-    // Create the tile layer that will be the background of our map.
-    let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    // Create base layers
+    let street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     });
-  
-    // Create a baseMaps object to hold the streetmap layer.
+
+    // Create the baseMaps object 
     let baseMaps = {
-      "Street Map": streetmap
+        "Street Map": street
     };
-  
-    // Create the map object with options.
-    let map = L.map("map", {
-      center: [37.8, -96],
-      zoom: 5,
-      layers: [streetmap]
-    });
 
-  }
-
-  // Function for the drop down - I left/commented out code that I obtained from an assingment/activity - I was hoping that can be helpful for you 
-  function optionChanged(id){
-    // let dropdownMenu = d3.select("#selDataset");
-    // Assign the value of the dropdown menu option to a letiable
-    // let id = dropdownMenu.property("value");
-    // create_bar_graph(final_data, id)
-    // create_bubble_graph(final_data,id)
-    // id_selected = id
-    // deleteRows()
-    // demographics(data_full,id_selected)
-  }
-
-  // Plot to add data for temperature vs month for each city - added random nubers to test if the graph was working
-  function Temperature_chart() {
-    data = [{
-      x: [1, 2, 3, 4, 5],
-      y: [1, 2, 4, 8, 16] }];
-  
-    Plotly.newPlot("Temperature_plot", data);
-  }
-
-  // Plot to add data for uv vs month for each city
-  function UV_chart() {
-    data = [{
-      x: [1, 2, 3, 4, 5],
-      y: [1, 2, 4, 8, 16] }];
-  
-    Plotly.newPlot("UV_plot", data);
-  }
-
-createMap()
-Temperature_chart()
-UV_chart()
+    // Add the baseMaps to the map using L.control.layers
+    L.control.layers(baseMaps).addTo(map);
+}
+createMap();
