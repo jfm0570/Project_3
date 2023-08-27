@@ -5,6 +5,8 @@ const map = L.map("map").setView([37.8, -96], 5); // Adjust initial view
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+// Define the cityDropdown element
+const cityDropdown = document.getElementById("selDataset");
 
 // Load CSV data using D3.js
 d3.csv("output_data/temp_humidity.csv").then(data => {
@@ -53,26 +55,53 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
     }).catch(error => {
       console.error("Error loading data:", error);
     });
+}
+ // Load CSV data using D3.js for the temperature graph
+d3.csv("output_data/temp_humidity.csv").then(data => {
+    // Extract unique city names from the CSV data
+  const uniqueCities = [...new Set(data.map(d => d.city))];
   
-  // Plot to add data for temperature vs month for each city - added random nubers to test if the graph was working
-  function Temperature_chart() {
-    data = [{
-      x: [1, 2, 3, 4, 5],
-      y: [1, 2, 4, 8, 16] }];
-  
-    Plotly.newPlot("Temperature_plot", data);
-  }
+  // Populate the city dropdown with unique city names
+  uniqueCities.forEach(city => {
+    const option = document.createElement("option");
+    option.value = city;
+    option.text = city;
+    cityDropdown.appendChild(option);
+  });
 
-  // Plot to add data for uv vs month for each city
-  function UV_chart() {
-    data = [{
-      x: [1, 2, 3, 4, 5],
-      y: [1, 2, 4, 8, 16] }];
+// Create a function to update the temperature graph
+    function updateTemperatureGraph(selectedCity) {
+      const cityData = data.filter(d => d.city === selectedCity);
   
-    Plotly.newPlot("UV_plot", data);
-  }
-
-createMap()
-Temperature_chart()
-UV_chart()
-  }
+      const traces = [];
+  
+      cityData.forEach(d => {
+        const temperatureTrace = {
+          x: cityData.map(item => item.date),
+          y: cityData.map(item => item.temp),
+          type: 'scatter',
+          mode: 'lines+markers',
+          name: d.date
+        };
+        traces.push(temperatureTrace);
+      });
+  
+      const layout = {
+        title: `Daily Temperature in ${selectedCity}`,
+        xaxis: { title: 'Date' },
+        yaxis: { title: 'Temperature (°F)' }
+      };
+  
+      Plotly.newPlot('temperatureChart', traces, layout);
+    }
+  
+    // Call the function when the city dropdown changes
+    cityDropdown.addEventListener("change", () => {
+      const selectedCity = cityDropdown.value;
+      updateTemperatureGraph(selectedCity);
+    });
+  
+  }).catch(error => {
+    console.error("Error loading data:", error);
+  });
+  
