@@ -259,19 +259,31 @@ Papa.parse("output_data/precipitation.csv", {
     function updatePrecipitationGraph(selectedCity) {
       const cityData = data.filter(d => d.city === selectedCity);
 
+      // Preprocess data to group and sum precipitation values for each date
+      const aggregatedData = cityData.reduce((acc, curr) => {
+        const date = curr.date;
+        if (!acc[date]) {
+          acc[date] = {
+            date: date,
+            precipitation: 0
+          };
+        }
+        acc[date].precipitation += curr.precipitation;
+        return acc;
+      }, {});
+
       const traces = [];
 
-      cityData.forEach(d => {
+      for (const date in aggregatedData) {
+        const entry = aggregatedData[date];
         const precipitationTrace = {
-          x: cityData.map(item => item.date),
-          y: cityData.map(item => item.precipitation),
-          type: 'scatter',
-          mode: 'lines+markers',
-          name: d.date,
-          hoverinfo: 'none'
+          x: [entry.date],
+          y: [entry.precipitation],
+          type: 'bar',
+          name: entry.date
         };
         traces.push(precipitationTrace);
-      });
+      }
 
       const layout = {
         title: `Daily Precipitation in ${selectedCity} May 2023-July 2023`,
@@ -292,3 +304,4 @@ Papa.parse("output_data/precipitation.csv", {
     console.error("Error loading data:", error);
   }
 });
+
