@@ -9,17 +9,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin="" />
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
   <!-- </head> -->
-
   <!-- Code that contains the header/title   -->
   <!-- <body id="custom-bg"> -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
- 
- <style>
+
+  <!-- Eddited some features for the dropdown to make them look even -->
+  <style>
     /* Your additional CSS styles here */
     /* Style for the dropdown container */
     .dropdown-container {
@@ -32,17 +32,18 @@
     /* Style for the dropdown label and select element */
     .dropdown-label {
       display: block;
-      margin-bottom: 5px;
+      /* margin-bottom: 5px; */
     }
 
     .dropdown-select {
-      width: 100%;
-      padding: 5px;
-      border: 1px solid #ccc;
+      /* width: 100%; */
+      /* padding: 5px; */
+      /* border: 1px solid #ccc; */
       border-radius: 3px;
     }
   </style>
 </head>
+
 <!-- Code that contains the header/title   -->
 <body>
   <div class="container">
@@ -57,7 +58,8 @@
     <!-- Date Dropdown -->
     <div class="row">
       <div class="col-md-5">
-        <div class="dropdown-container">
+        <!-- <div class="dropdown-container"> -->
+        <div class="well">
           <label class="dropdown-label" for="dateDropdown">Select Date:</label>
           <select class="dropdown-select" id="dateDropdown"></select>
         </div>
@@ -66,20 +68,8 @@
       <!-- City Dropdown -->
       <div class="col-md-5">
         <div class="well">
-          <h5>Select city:</h5>
+          <label class="dropdown-label">Select city:</label>
           <select id="selDataset" onchange="optionChanged(this.value)">
-            <option value="Atlanta">Atlanta</option>
-            <option value="Chicago">Chicago</option>
-            <option value="Denver">Denver</option>
-            <option value="Houston">Houston</option>  
-            <option value="Kansas_City">Kansas City</option>  
-            <option value="Los_Angeles">Los Angeles</option>  
-            <option value="Miami">Miami</option>  
-            <option value="Minneapolis">Minneapolis</option>
-            <option value="New_York">New York</option>
-            <option value="Phoenix">Phoenix</option>  
-            <option value="San_Francisco">San Francisco</option>  
-            <option value="Seattle">Seattle</option>
           </select>
         </div>
       </div>
@@ -92,74 +82,53 @@
       </div>
     </div>
 
-   
+
+    <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
+    <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
     <div class="row">
-  <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
-  <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
       <div class="col-md-5">
         <div class="well">
-          <h5> Select Temperature or Precipitation:</h5>
+          <label class="dropdown-label">Select Temperature or Precipitation:</label>
           <select id="selDataset" onchange="optionChanged(this.value)">
             <option value="Temperature">Temperature</option>
-            <option value="Precipitation">Precipitation</option>  
+            <option value="Precipitation">Precipitation</option>
           </select>
         </div>
       </div>
 
     </div>
-    
-    <div class="row">
+
+    <!-- <div class="row">
       <div class="col-md-12">
         <div id="map"></div>
       </div>
-    </div>
-  
+    </div> -->
+
     <!-- Plot to add data for temperature vs month for each city -->
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="well">
-        <div id="Temperature_plot"></div>
-      </div>
+          <div id="temperatureChart"></div>
+        </div>
       </div>
 
-    <!-- Plot to add data for UV vs month for each city -->
-        <div class="col-md-6">
-          <div class="well">
+      <!-- Plot to add data for UV vs month for each city -->
+      <div class="col-md-12">
+        <div class="well">
           <div id="UV_plot"></div>
         </div>
-        </div>
-
-    </div>
-
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <!-- D3 JavaScript -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="app.js"></script>
-
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
       </div>
+
     </div>
 
-    <!-- Temperature Chart -->
-    <div class="row">
-      <div class="col-md-12">
-        <div id="temperatureChart"></div>
-      </div>
-    </div>
-  </div>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="app.js"></script>
 
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <!-- D3 JavaScript -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <!-- Add this to create Plotly graph -->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- Your JavaScript -->
-  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
