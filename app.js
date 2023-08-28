@@ -193,31 +193,31 @@ function getUVIndexData(selectedDate) {
 
 //--------------------------------------------------------------------------------------------------------------------------
 
-// Part 3: Temperature and Precipitation Graph
+// Load CSV data for the temperature graph
+Papa.parse("output_data/temp_humidity.csv", {
+  download: true,
+  header: true,
+  dynamicTyping: true,
+  complete: function(results) {
+    const data = results.data;
+    const uniqueCities = [...new Set(data.map(d => d.city))];
+    
+    uniqueCities.forEach(city => {
+      const option = document.createElement("option");
+      option.value = city;
+      option.text = city;
+      cityDropdown.appendChild(option);
+    });
 
- // Load CSV data using D3.js for the temperature graph
-d3.csv("output_data/temp_humidity.csv").then(data => {
-    // Extract unique city names from the CSV data
-  const uniqueCities = [...new Set(data.map(d => d.city))];
-  
-  // Populate the city dropdown with unique city names
-  uniqueCities.forEach(city => {
-    const option = document.createElement("option");
-    option.value = city;
-    option.text = city;
-    cityDropdown.appendChild(option);
-  });
-
-// Create a function to update the temperature graph
     function updateTemperatureGraph(selectedCity) {
       const cityData = data.filter(d => d.city === selectedCity);
-  
+
       const traces = [];
-  
+
       cityData.forEach(d => {
         const temperatureTrace = {
-          x: cityData.map(item => item.date), 
-          y: cityData.map(item => item.temp), 
+          x: cityData.map(item => item.date),
+          y: cityData.map(item => item.temp),
           type: 'scatter',
           mode: 'lines+markers',
           name: d.date,
@@ -225,62 +225,69 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
         };
         traces.push(temperatureTrace);
       });
-      
-  
+
       const layout = {
         title: `Daily Temperature in ${selectedCity} May 2023-July 2023`,
         xaxis: { title: 'Date' },
         yaxis: { title: 'Temperature (°F)' },
-        showlegend: false 
+        showlegend: false
       };
-  
+
       Plotly.newPlot('temperatureChart', traces, layout);
     }
-  
-    // Call the function when the city dropdown changes
+
     cityDropdown.addEventListener("change", () => {
       const selectedCity = cityDropdown.value;
       updateTemperatureGraph(selectedCity);
     });
-  
-  }).catch(error => {
+  },
+  error: function(error) {
     console.error("Error loading data:", error);
-  });
- // Load CSV data using D3.js for the temperature graph
- d3.csv("output_data/precipitation.csv").then(data => {
-  // Extract unique city names from the CSV data
-const uniqueCities = [...new Set(data.map(d => d.city))];
-// Create a function to update the precipitation graph
-function updatePrecipitationGraph(selectedCity) {
-  const cityData = data.filter(d => d.city === selectedCity);
-
-  const traces = [];
-
-  cityData.forEach(d => {
-    const precipitationTrace = {
-      x: cityData.map(item => item.date),
-      y: cityData.map(item => item.precipitation), 
-      type: 'scatter',
-      mode: 'lines+markers',
-      name: d.date,
-      hoverinfo: 'none'
-    };
-    traces.push(precipitationTrace);
-  });
-
-  const layout = {
-    title: `Daily Precipitation in ${selectedCity} May 2023-July 2023`,
-    xaxis: { title: 'Date' },
-    yaxis: { title: 'Precipitation (inches)' },
-    showlegend: false
-  };
-
-  Plotly.newPlot('precipitationChart', traces, layout);
-}
-
-// Call the precipitation function when the city dropdown changes
-cityDropdown.addEventListener("change", () => {
-  const selectedCity = cityDropdown.value;
-  updatePrecipitationGraph(selectedCity);
+  }
 });
- })
+
+// Load CSV data for the precipitation graph
+Papa.parse("output_data/precipitation.csv", {
+  download: true,
+  header: true,
+  dynamicTyping: true,
+  complete: function(results) {
+    const data = results.data;
+    const uniqueCities = [...new Set(data.map(d => d.city))];
+
+    function updatePrecipitationGraph(selectedCity) {
+      const cityData = data.filter(d => d.city === selectedCity);
+
+      const traces = [];
+
+      cityData.forEach(d => {
+        const precipitationTrace = {
+          x: cityData.map(item => item.date),
+          y: cityData.map(item => item.precipitation),
+          type: 'scatter',
+          mode: 'lines+markers',
+          name: d.date,
+          hoverinfo: 'none'
+        };
+        traces.push(precipitationTrace);
+      });
+
+      const layout = {
+        title: `Daily Precipitation in ${selectedCity} May 2023-July 2023`,
+        xaxis: { title: 'Date' },
+        yaxis: { title: 'Precipitation (inches)' },
+        showlegend: false
+      };
+
+      Plotly.newPlot('precipitationChart', traces, layout);
+    }
+
+    cityDropdown.addEventListener("change", () => {
+      const selectedCity = cityDropdown.value;
+      updatePrecipitationGraph(selectedCity);
+    });
+  },
+  error: function(error) {
+    console.error("Error loading data:", error);
+  }
+});
