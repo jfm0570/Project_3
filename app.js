@@ -50,7 +50,7 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
   
         const marker = L.marker([lat, lon])
           .addTo(map)
-          .bindPopup(`City: ${city}<br>Feels Like: ${feelslike.toFixed(2)}°F<br>Humidity: ${humidity}%`);
+          marker.bindPopup(`City: ${city}<br>Feels Like: ${feelslike.toFixed(2)}°F<br>Humidity: ${humidity}%`);
       });
     }).catch(error => {
       console.error("Error loading data:", error);
