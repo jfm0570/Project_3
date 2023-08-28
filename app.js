@@ -1,3 +1,5 @@
+// Part 1: Temperature and Humidity Map
+
 // Initialize the map
 const map = L.map("map").setView([37.8, -96], 5); // Adjust initial view
 
@@ -6,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Add a custom control for the title
+// Adding a custom control for the title
 const titleControl = L.control({ position: 'topleft' });
 
 titleControl.onAdd = function (map) {
@@ -49,7 +51,11 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
         map.removeLayer(layer);
       }
     });
-  
+  // Update map and UV Index chart
+  function updateMapAndChart(selectedDate) {
+  updateMap(selectedDate);
+  updateUVIndexChart(selectedDate);
+}
     d3.csv("output_data/temp_humidity.csv").then(data => {
       const selectedData = data.filter(d => d.date === selectedDate);
       
@@ -87,13 +93,108 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
         
           const marker = L.marker([lat, lon], { icon: customIcon })
             .addTo(map)
-            .bindPopup(popupContent);
+            marker.bindPopup(popupContent);
         });
       }).catch(error => {
         console.error("Error loading data:", error);
       });
       
 })}
+
+// Part 2: UV Index Map
+
+let data; // Define data in a higher scope
+let uvMap; // Define a separate map for UV index markers
+
+// Load CSV data using D3.js
+d3.csv("output_data/full_data.csv").then(function(results) {
+  data = results; // Assign the loaded data to the higher scope variable
+
+  const uniqueDates = [...new Set(data.map(d => d.date))];
+  const dateDropdown = document.getElementById("dateDropdown");
+  uniqueDates.forEach(date => {
+    const option = document.createElement("option");
+    option.value = date;
+    option.text = date;
+    dateDropdown.appendChild(option);
+  });
+
+  // Initialize the UV map with default data (first date in the dropdown)
+  initializeUVMap(uniqueDates[0]);
+
+  dateDropdown.addEventListener("change", event => {
+    const selectedDate = event.target.value;
+    updateUVMap(selectedDate);
+    updateUVIndexChart(selectedDate);
+  });
+}).catch(function(error) {
+  console.error("Error loading data:", error);
+});
+
+// Initialize the UV map
+function initializeUVMap(initialDate) {
+  uvMap = L.map("uvMap").setView([37.8, -96], 5); // Adjust initial view
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(uvMap);
+
+  updateUVMap(initialDate);
+}
+
+// Update UV map with UV index markers
+function updateUVMap(selectedDate) {
+  // Clear existing markers from the UV map
+  if (uvMap) {
+    uvMap.eachLayer(layer => {
+      if (layer instanceof L.Marker) {
+        uvMap.removeLayer(layer);
+      }
+    });
+
+    // Filter data for the selected date
+    const selectedData = data.filter(d => d.date === selectedDate);
+
+    // Create markers for each city and add to the UV map
+    selectedData.forEach(d => {
+      const lat = +d.latitude;
+      const lon = +d.longitude;
+      const uvIndex = +d.uv_index;
+      const city = d.city;
+
+      const customIcon = L.divIcon({
+        className: 'custom-icon',
+        html: `<div class="uv-index-marker">${uvIndex}</div>`
+      });
+
+      const marker = L.marker([lat, lon], { icon: customIcon }).addTo(uvMap);
+      marker.bindPopup(`<strong>${city}</strong><br>UV Index: ${uvIndex}`);
+    });
+  }
+}
+
+// Function to retrieve UV Index data based on selected date
+function getUVIndexData(selectedDate) {
+  const uvIndexData = []; // Array to store UV index values
+
+  // Filter the data for the selected date and extract UV index values
+  const selectedData = data.filter(d => d.date === selectedDate);
+  selectedData.forEach(d => {
+    uvIndexData.push(d.uv_index);
+  });
+
+  const dateLabels = selectedData.map(d => d.date); // Use date as labels
+
+  return {
+    labels: dateLabels,
+    values: uvIndexData,
+  };
+}
+
+
+//--------------------------------------------------------------------------------------------------------------------------
+
+// Part 3: Temperature and Precipitation Graph
+
  // Load CSV data using D3.js for the temperature graph
 d3.csv("output_data/temp_humidity.csv").then(data => {
     // Extract unique city names from the CSV data
@@ -115,8 +216,8 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
   
       cityData.forEach(d => {
         const temperatureTrace = {
-          x: cityData.map(item => item.date), // This maps all dates in cityData
-          y: cityData.map(item => item.temp), // This maps all temperatures in cityData
+          x: cityData.map(item => item.date), 
+          y: cityData.map(item => item.temp), 
           type: 'scatter',
           mode: 'lines+markers',
           name: d.date,
@@ -158,7 +259,7 @@ function updatePrecipitationGraph(selectedCity) {
   cityData.forEach(d => {
     const precipitationTrace = {
       x: cityData.map(item => item.date),
-      y: cityData.map(item => item.precipitation), // Replace with your actual precipitation data field
+      y: cityData.map(item => item.precipitation), 
       type: 'scatter',
       mode: 'lines+markers',
       name: d.date,

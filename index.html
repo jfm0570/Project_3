@@ -5,20 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title> US Summer 2023 weather</title>
+  <title>US Summer 2023 Weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  
-  <!-- </head> -->
-  <!-- Code that contains the header/title   -->
-  <!-- <body id="custom-bg"> -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-
-  <!-- Eddited some features for the dropdown to make them look even -->
   <style>
     /* Your additional CSS styles here */
     /* Style for the dropdown container */
@@ -44,12 +35,11 @@
   </style>
 </head>
 
-<!-- Code that contains the header/title   -->
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Summer weather analysis for the US</h1>
+        <h1>Summer Weather Analysis for the US</h1>
         <p>View of daily weather conditions in 12 cities across the US</p>
         <p>May 2023 - July 2023</p>
       </div>
@@ -58,12 +48,12 @@
     <!-- Date Dropdown -->
     <div class="row">
       <div class="col-md-5">
-        <!-- <div class="dropdown-container"> -->
         <div class="well">
           <label class="dropdown-label" for="dateDropdown">Select Date:</label>
           <select class="dropdown-select" id="dateDropdown"></select>
         </div>
       </div>
+    </div>
 
     <!-- Map -->
     <div class="row">
@@ -71,43 +61,30 @@
         <div id="map" style="width: 100%; height: 500px;"></div>
       </div>
     </div>
-    <!-- Header for City Dropdown -->
-<div class="container">
-<div class="row">
-  <div class="col-md-12">
-    <h3 class="text-center">City Temperature Analysis</h3> <!-- New header -->
-  </div>
-</div>
-   <!-- City Dropdown -->
-   <div class="col-md-5">
-    <div class="well">
-      <label class="dropdown-label">Select city:</label>
-      <select id="selDataset" onchange="optionChanged(this.value)">
-      </select>
+    <!-- Plot to add data for UV Chart -->
+    <div id="uvMap" class="map"></div>
+    <div class="dropdown">
+      <select id="dateDropdown"></select>
     </div>
-  </div>
-</div>
+    <div class="chart">
+      <canvas id="uvIndexChart"></canvas>
+    </div>
+    <!-- Header for City Dropdown -->
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="text-center">City Temperature Analysis</h3>
+      </div>
+    </div>
 
-    <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
-    <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
-    <!-- <div class="row">
+    <!-- City Dropdown -->
+    <div class="row">
       <div class="col-md-5">
         <div class="well">
-          <label class="dropdown-label">Select Temperature or Precipitation:</label>
-          <select id="selDataset" onchange="optionChanged(this.value)">
-            <option value="Temperature">Temperature</option>
-            <option value="Precipitation">Precipitation</option>
-          </select>
+          <label class="dropdown-label">Select City:</label>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
       </div>
-
-    </div> -->
-
-    <!-- <div class="row">
-      <div class="col-md-12">
-        <div id="map"></div>
-      </div>
-    </div> -->
+    </div>
 
     <!-- Plot to add data for temperature vs month for each city -->
     <div class="row">
@@ -116,32 +93,28 @@
           <div id="temperatureChart"></div>
         </div>
       </div>
-   <!-- Plot to add data for precipitation for each city -->
-   <div class="row">
-    <div class="col-md-12">
-      <div class="well">
-        <div id="precipitationChart"></div>
-      </div>
     </div>
-      <!-- Plot to add data for UV vs month for each city -->
+
+    <!-- Plot to add data for precipitation for each city -->
+    <div class="row">
       <div class="col-md-12">
         <div class="well">
-          <div id="UV_plot"></div>
+          <div id="precipitationChart"></div>
         </div>
       </div>
-
     </div>
 
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <!-- D3 JavaScript -->
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- Add this to create Plotly graph -->
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <!-- Our JavaScript -->
-    <script type="text/javascript" src="app.js"></script>
 
+  <!-- JavaScript Libraries -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Your JavaScript -->
+  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>
