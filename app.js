@@ -5,6 +5,18 @@ const map = L.map("map").setView([37.8, -96], 5); // Adjust initial view
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+
+// Add a custom control for the title
+const titleControl = L.control({ position: 'topleft' });
+
+titleControl.onAdd = function (map) {
+  const div = L.DomUtil.create('div', 'map-title');
+  div.innerHTML = '<h2>Feels Like Temperature °F </h2>';
+  return div;
+};
+
+titleControl.addTo(map);
+
 // Define the cityDropdown element
 const cityDropdown = document.getElementById("selDataset");
 
@@ -41,21 +53,47 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
     d3.csv("output_data/temp_humidity.csv").then(data => {
       const selectedData = data.filter(d => d.date === selectedDate);
       
-      selectedData.forEach(d => {
-        const lat = +d.latitude;
-        const lon = +d.longitude;
-        const feelslike = +d.feelslike;
-        const humidity = +d.humidity;
-        const city = d.city;
-  
-        const marker = L.marker([lat, lon])
-          .addTo(map)
-          marker.bindPopup(`City: ${city}<br>Feels Like: ${feelslike.toFixed(2)}°F<br>Humidity: ${humidity}%`);
+      d3.csv("output_data/temp_humidity.csv").then(data => {
+        const selectedData = data.filter(d => d.date === selectedDate);
+            
+        selectedData.forEach(d => {
+          const lat = +d.latitude;
+          const lon = +d.longitude;
+          const feelslike = +d.feelslike;
+          const feelslikemin = +d.feelslikemin;
+          const feelslikemax = +d.feelslikemax;
+          const temp = +d.temp;
+          const tempmin = +d.tempmin;
+          const tempmax = +d.tempmax;
+          const humidity = +d.humidity;
+          const city = d.city;
+        
+          const customIcon = L.divIcon({
+            className: 'custom-icon',
+            html: `
+              <div class="feels-like">${feelslike.toFixed(2)}°F</div>
+
+            `
+          });
+          const popupContent = `
+            <strong>City:</strong> ${city}<br>
+            <strong>Feels Like Min:</strong> ${feelslikemin.toFixed(2)}°F<br>
+            <strong>Feels Like Max:</strong> ${feelslikemax.toFixed(2)}°F<br>
+            <strong>Temperature:</strong> ${temp.toFixed(2)}°F<br>
+            <strong>Temperature Min:</strong> ${tempmin.toFixed(2)}°F<br>
+            <strong>Temperature Max:</strong> ${tempmax.toFixed(2)}°F<br>
+            <strong>Humidity:</strong> ${humidity}%<br>
+          `;
+        
+          const marker = L.marker([lat, lon], { icon: customIcon })
+            .addTo(map)
+            .bindPopup(popupContent);
+        });
+      }).catch(error => {
+        console.error("Error loading data:", error);
       });
-    }).catch(error => {
-      console.error("Error loading data:", error);
-    });
-}
+      
+})}
  // Load CSV data using D3.js for the temperature graph
 d3.csv("output_data/temp_humidity.csv").then(data => {
     // Extract unique city names from the CSV data
@@ -77,19 +115,22 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
   
       cityData.forEach(d => {
         const temperatureTrace = {
-          x: cityData.map(item => item.date),
-          y: cityData.map(item => item.temp),
+          x: cityData.map(item => item.date), // This maps all dates in cityData
+          y: cityData.map(item => item.temp), // This maps all temperatures in cityData
           type: 'scatter',
           mode: 'lines+markers',
-          name: d.date
+          name: d.date,
+          hoverinfo: 'none'
         };
         traces.push(temperatureTrace);
       });
+      
   
       const layout = {
-        title: `Daily Temperature in ${selectedCity}`,
+        title: `Daily Temperature in ${selectedCity} May 2023-July 2023`,
         xaxis: { title: 'Date' },
-        yaxis: { title: 'Temperature (°F)' }
+        yaxis: { title: 'Temperature (°F)' },
+        showlegend: false 
       };
   
       Plotly.newPlot('temperatureChart', traces, layout);
@@ -104,4 +145,41 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
   }).catch(error => {
     console.error("Error loading data:", error);
   });
-  
+ // Load CSV data using D3.js for the temperature graph
+ d3.csv("output_data/precipitation.csv").then(data => {
+  // Extract unique city names from the CSV data
+const uniqueCities = [...new Set(data.map(d => d.city))];
+// Create a function to update the precipitation graph
+function updatePrecipitationGraph(selectedCity) {
+  const cityData = data.filter(d => d.city === selectedCity);
+
+  const traces = [];
+
+  cityData.forEach(d => {
+    const precipitationTrace = {
+      x: cityData.map(item => item.date),
+      y: cityData.map(item => item.precipitation), // Replace with your actual precipitation data field
+      type: 'scatter',
+      mode: 'lines+markers',
+      name: d.date,
+      hoverinfo: 'none'
+    };
+    traces.push(precipitationTrace);
+  });
+
+  const layout = {
+    title: `Daily Precipitation in ${selectedCity} May 2023-July 2023`,
+    xaxis: { title: 'Date' },
+    yaxis: { title: 'Precipitation (inches)' },
+    showlegend: false
+  };
+
+  Plotly.newPlot('precipitationChart', traces, layout);
+}
+
+// Call the precipitation function when the city dropdown changes
+cityDropdown.addEventListener("change", () => {
+  const selectedCity = cityDropdown.value;
+  updatePrecipitationGraph(selectedCity);
+});
+ })
