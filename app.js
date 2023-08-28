@@ -101,97 +101,98 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
       
 })}
 
-// Part 2: UV Index Map
+// // Part 2: UV Index Map [Could not get UV Index map to populate with the Feels like Map when Selecting the date]
 
-let data; // Define data in a higher scope
-let uvMap; // Define a separate map for UV index markers
+// let data; // Define data in a higher scope
+// let uvMap; // Define a separate map for UV index markers
 
-// Load CSV data using D3.js
-d3.csv("output_data/full_data.csv").then(function(results) {
-  data = results; // Assign the loaded data to the higher scope variable
+// // Load CSV data using D3.js
+// d3.csv("output_data/full_data.csv").then(function(results) {
+//   data = results; // Assign the loaded data to the higher scope variable
 
-  const uniqueDates = [...new Set(data.map(d => d.date))];
-  const dateDropdown = document.getElementById("dateDropdown");
-  uniqueDates.forEach(date => {
-    const option = document.createElement("option");
-    option.value = date;
-    option.text = date;
-    dateDropdown.appendChild(option);
-  });
+//   const uniqueDates = [...new Set(data.map(d => d.date))];
+//   const dateDropdown = document.getElementById("dateDropdown");
+//   uniqueDates.forEach(date => {
+//     const option = document.createElement("option");
+//     option.value = date;
+//     option.text = date;
+//     dateDropdown.appendChild(option);
+//   });
 
-  // Initialize the UV map with default data (first date in the dropdown)
-  initializeUVMap(uniqueDates[0]);
+//   // Initialize the UV map with default data (first date in the dropdown)
+//   initializeUVMap(uniqueDates[0]);
 
-  dateDropdown.addEventListener("change", event => {
-    const selectedDate = event.target.value;
-    updateUVMap(selectedDate);
-    updateUVIndexChart(selectedDate);
-  });
-}).catch(function(error) {
-  console.error("Error loading data:", error);
-});
+//   dateDropdown.addEventListener("change", event => {
+//     const selectedDate = event.target.value;
+//     updateUVMap(selectedDate);
+//     updateUVIndexChart(selectedDate);
+//   });
+// }).catch(function(error) {
+//   console.error("Error loading data:", error);
+// });
 
-// Initialize the UV map
-function initializeUVMap(initialDate) {
-  uvMap = L.map("uvMap").setView([37.8, -96], 5); // Adjust initial view
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(uvMap);
+// // Initialize the UV map
+// function initializeUVMap(initialDate) {
+//   uvMap = L.map("uvMap").setView([37.8, -96], 5); // Adjust initial view
+//   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+//   }).addTo(uvMap);
 
-  updateUVMap(initialDate);
-}
+//   updateUVMap(initialDate);
+// }
 
-// Update UV map with UV index markers
-function updateUVMap(selectedDate) {
-  // Clear existing markers from the UV map
-  if (uvMap) {
-    uvMap.eachLayer(layer => {
-      if (layer instanceof L.Marker) {
-        uvMap.removeLayer(layer);
-      }
-    });
+// // Update UV map with UV index markers
+// function updateUVMap(selectedDate) {
+//   // Clear existing markers from the UV map
+//   if (uvMap) {
+//     uvMap.eachLayer(layer => {
+//       if (layer instanceof L.Marker) {
+//         uvMap.removeLayer(layer);
+//       }
+//     });
 
-    // Filter data for the selected date
-    const selectedData = data.filter(d => d.date === selectedDate);
+//     // Filter data for the selected date
+//     const selectedData = data.filter(d => d.date === selectedDate);
 
-    // Create markers for each city and add to the UV map
-    selectedData.forEach(d => {
-      const lat = +d.latitude;
-      const lon = +d.longitude;
-      const uvIndex = +d.uv_index;
-      const city = d.city;
+//     // Create markers for each city and add to the UV map
+//     selectedData.forEach(d => {
+//       const lat = +d.latitude;
+//       const lon = +d.longitude;
+//       const uvIndex = +d.uv_index;
+//       const city = d.city;
 
-      const customIcon = L.divIcon({
-        className: 'custom-icon',
-        html: `<div class="uv-index-marker">${uvIndex}</div>`
-      });
+//       const customIcon = L.divIcon({
+//         className: 'custom-icon',
+//         html: `<div class="uv-index-marker">${uvIndex}</div>`
+//       });
 
-      const marker = L.marker([lat, lon], { icon: customIcon }).addTo(uvMap);
-      marker.bindPopup(`<strong>${city}</strong><br>UV Index: ${uvIndex}`);
-    });
-  }
-}
+//       const marker = L.marker([lat, lon], { icon: customIcon }).addTo(uvMap);
+//       marker.bindPopup(`<strong>${city}</strong><br>UV Index: ${uvIndex}`);
+//     });
+//   }
+// }
 
-// Function to retrieve UV Index data based on selected date
-function getUVIndexData(selectedDate) {
-  const uvIndexData = []; // Array to store UV index values
+// // Function to retrieve UV Index data based on selected date
+// function getUVIndexData(selectedDate) {
+//   const uvIndexData = []; // Array to store UV index values
 
-  // Filter the data for the selected date and extract UV index values
-  const selectedData = data.filter(d => d.date === selectedDate);
-  selectedData.forEach(d => {
-    uvIndexData.push(d.uv_index);
-  });
+//   // Filter the data for the selected date and extract UV index values
+//   const selectedData = data.filter(d => d.date === selectedDate);
+//   selectedData.forEach(d => {
+//     uvIndexData.push(d.uv_index);
+//   });
 
-  const dateLabels = selectedData.map(d => d.date); // Use date as labels
+//   const dateLabels = selectedData.map(d => d.date); 
 
-  return {
-    labels: dateLabels,
-    values: uvIndexData,
-  };
-}
+//   return {
+//     labels: dateLabels,
+//     values: uvIndexData,
+//   };
+// }
 
 
 //--------------------------------------------------------------------------------------------------------------------------
+//Part 3: Temperature and Precipitation graph
 
 // Load CSV data for the temperature graph
 Papa.parse("output_data/temp_humidity.csv", {

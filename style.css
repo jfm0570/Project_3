@@ -50,3 +50,27 @@ body {
 }
 
 
+    /* Your additional CSS styles here */
+    /* Style for the dropdown container */
+    .dropdown-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f9f9f9;
+    }
+
+    /* Style for the dropdown label and select element */
+    .dropdown-label {
+      display: block;
+      /* margin-bottom: 5px; */
+    }
+
+    .dropdown-select {
+      /* width: 100%; */
+      /* padding: 5px; */
+      /* border: 1px solid #ccc; */
+      border-radius: 3px;
+    }
+
+
+
