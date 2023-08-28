@@ -65,27 +65,32 @@
         </div>
       </div>
 
-      <!-- City Dropdown -->
-      <div class="col-md-5">
-        <div class="well">
-          <label class="dropdown-label">Select city:</label>
-          <select id="selDataset" onchange="optionChanged(this.value)">
-          </select>
-        </div>
-      </div>
-    </div>
-
     <!-- Map -->
     <div class="row">
       <div class="col-md-12">
         <div id="map" style="width: 100%; height: 500px;"></div>
       </div>
     </div>
-
+    <!-- Header for City Dropdown -->
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="text-center">City Temperature Analysis</h3> <!-- New header -->
+  </div>
+</div>
+   <!-- City Dropdown -->
+   <div class="col-md-5">
+    <div class="well">
+      <label class="dropdown-label">Select city:</label>
+      <select id="selDataset" onchange="optionChanged(this.value)">
+      </select>
+    </div>
+  </div>
+</div>
 
     <!-- I added the map so you can add the Daily Temps (real and feels like and humidity) and Daily Precipitation to the map -->
     <!-- By selecting either the temperaure or presipitaion options, you can visualize different conditions in the map  -->
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-5">
         <div class="well">
           <label class="dropdown-label">Select Temperature or Precipitation:</label>
@@ -96,7 +101,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
     <!-- <div class="row">
       <div class="col-md-12">
@@ -111,7 +116,13 @@
           <div id="temperatureChart"></div>
         </div>
       </div>
-
+   <!-- Plot to add data for precipitation for each city -->
+   <div class="row">
+    <div class="col-md-12">
+      <div class="well">
+        <div id="precipitationChart"></div>
+      </div>
+    </div>
       <!-- Plot to add data for UV vs month for each city -->
       <div class="col-md-12">
         <div class="well">
@@ -126,6 +137,8 @@
       integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <!-- D3 JavaScript -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Add this to create Plotly graph -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- Our JavaScript -->
     <script type="text/javascript" src="app.js"></script>
 
