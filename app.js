@@ -202,7 +202,7 @@ Papa.parse("output_data/temp_humidity.csv", {
   complete: function(results) {
     const data = results.data;
     const uniqueCities = [...new Set(data.map(d => d.city))];
-    
+
     uniqueCities.forEach(city => {
       const option = document.createElement("option");
       option.value = city;
@@ -213,19 +213,36 @@ Papa.parse("output_data/temp_humidity.csv", {
     function updateTemperatureGraph(selectedCity) {
       const cityData = data.filter(d => d.city === selectedCity);
 
+      // Preprocess data to group and average temperature values for each date
+      const aggregatedData = cityData.reduce((acc, curr) => {
+        const date = curr.date;
+        if (!acc[date]) {
+          acc[date] = {
+            date: date,
+            tempSum: 0,
+            count: 0
+          };
+        }
+        acc[date].tempSum += curr.temp;
+        acc[date].count += 1;
+        return acc;
+      }, {});
+
       const traces = [];
 
-      cityData.forEach(d => {
+      for (const date in aggregatedData) {
+        const entry = aggregatedData[date];
+        const averageTemp = entry.tempSum / entry.count;
         const temperatureTrace = {
-          x: cityData.map(item => item.date),
-          y: cityData.map(item => item.temp),
+          x: [entry.date],
+          y: [averageTemp],
           type: 'scatter',
           mode: 'lines+markers',
-          name: d.date,
-          hoverinfo: 'none'
+          name: entry.date,
+          connectgaps: true
         };
         traces.push(temperatureTrace);
-      });
+      }
 
       const layout = {
         title: `Daily Temperature in ${selectedCity} May 2023-July 2023`,
@@ -246,6 +263,8 @@ Papa.parse("output_data/temp_humidity.csv", {
     console.error("Error loading data:", error);
   }
 });
+
+//---------------------------------------------------------------------------------------------------------
 
 // Load CSV data for the precipitation graph
 Papa.parse("output_data/precipitation.csv", {
