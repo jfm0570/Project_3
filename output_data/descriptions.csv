@@ -1,0 +1,1105 @@
+,city,latitude,longitude,date,conditions,description
+0,Chicago,41.8843,-87.6324,2023-05-01,"Rain, Overcast",Cloudy skies throughout the day with rain in the morning and afternoon.
+1,Chicago,41.8843,-87.6324,2023-05-02,Overcast,Cloudy skies throughout the day.
+2,Chicago,41.8843,-87.6324,2023-05-03,Partially cloudy,Clearing in the afternoon.
+3,Chicago,41.8843,-87.6324,2023-05-04,Partially cloudy,Partly cloudy throughout the day.
+4,Chicago,41.8843,-87.6324,2023-05-05,Partially cloudy,Partly cloudy throughout the day.
+5,Chicago,41.8843,-87.6324,2023-05-06,"Rain, Overcast",Cloudy skies throughout the day with rain in the morning and afternoon.
+6,Chicago,41.8843,-87.6324,2023-05-07,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+7,Chicago,41.8843,-87.6324,2023-05-08,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+8,Chicago,41.8843,-87.6324,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+9,Chicago,41.8843,-87.6324,2023-05-10,Partially cloudy,Partly cloudy throughout the day.
+10,Chicago,41.8843,-87.6324,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+11,Chicago,41.8843,-87.6324,2023-05-12,"Rain, Overcast",Cloudy skies throughout the day with rain.
+12,Chicago,41.8843,-87.6324,2023-05-13,"Rain, Overcast",Cloudy skies throughout the day with early morning rain.
+13,Chicago,41.8843,-87.6324,2023-05-14,"Rain, Overcast",Cloudy skies throughout the day with rain.
+14,Chicago,41.8843,-87.6324,2023-05-15,Partially cloudy,Partly cloudy throughout the day.
+15,Chicago,41.8843,-87.6324,2023-05-16,Partially cloudy,Partly cloudy throughout the day.
+16,Chicago,41.8843,-87.6324,2023-05-17,Partially cloudy,Partly cloudy throughout the day.
+17,Chicago,41.8843,-87.6324,2023-05-18,Partially cloudy,Partly cloudy throughout the day.
+18,Chicago,41.8843,-87.6324,2023-05-19,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+19,Chicago,41.8843,-87.6324,2023-05-20,Clear,Clear conditions throughout the day.
+20,Chicago,41.8843,-87.6324,2023-05-21,Clear,Clear conditions throughout the day.
+21,Chicago,41.8843,-87.6324,2023-05-22,Partially cloudy,Partly cloudy throughout the day.
+22,Chicago,41.8843,-87.6324,2023-05-23,Clear,Clear conditions throughout the day.
+23,Chicago,41.8843,-87.6324,2023-05-24,Partially cloudy,Partly cloudy throughout the day.
+24,Chicago,41.8843,-87.6324,2023-05-25,Partially cloudy,Clearing in the afternoon.
+25,Chicago,41.8843,-87.6324,2023-05-26,Clear,Clear conditions throughout the day.
+26,Chicago,41.8843,-87.6324,2023-05-27,Partially cloudy,Partly cloudy throughout the day.
+27,Chicago,41.8843,-87.6324,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+28,Chicago,41.8843,-87.6324,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+29,Chicago,41.8843,-87.6324,2023-05-30,Partially cloudy,Partly cloudy throughout the day.
+30,Chicago,41.8843,-87.6324,2023-05-31,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+31,Chicago,41.8843,-87.6324,2023-06-01,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+32,Chicago,41.8843,-87.6324,2023-06-02,Partially cloudy,Partly cloudy throughout the day.
+33,Chicago,41.8843,-87.6324,2023-06-03,Partially cloudy,Partly cloudy throughout the day.
+34,Chicago,41.8843,-87.6324,2023-06-04,Partially cloudy,Partly cloudy throughout the day.
+35,Chicago,41.8843,-87.6324,2023-06-05,Partially cloudy,Clearing in the afternoon.
+36,Chicago,41.8843,-87.6324,2023-06-06,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+37,Chicago,41.8843,-87.6324,2023-06-07,Partially cloudy,Clearing in the afternoon.
+38,Chicago,41.8843,-87.6324,2023-06-08,Clear,Clear conditions throughout the day.
+39,Chicago,41.8843,-87.6324,2023-06-09,Clear,Clear conditions throughout the day.
+40,Chicago,41.8843,-87.6324,2023-06-10,Partially cloudy,Partly cloudy throughout the day.
+41,Chicago,41.8843,-87.6324,2023-06-11,"Rain, Overcast",Cloudy skies throughout the day with rain.
+42,Chicago,41.8843,-87.6324,2023-06-12,Partially cloudy,Partly cloudy throughout the day.
+43,Chicago,41.8843,-87.6324,2023-06-13,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+44,Chicago,41.8843,-87.6324,2023-06-14,Partially cloudy,Partly cloudy throughout the day.
+45,Chicago,41.8843,-87.6324,2023-06-15,Partially cloudy,Partly cloudy throughout the day.
+46,Chicago,41.8843,-87.6324,2023-06-16,Partially cloudy,Partly cloudy throughout the day.
+47,Chicago,41.8843,-87.6324,2023-06-17,Clear,Clear conditions throughout the day.
+48,Chicago,41.8843,-87.6324,2023-06-18,Partially cloudy,Partly cloudy throughout the day.
+49,Chicago,41.8843,-87.6324,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+50,Chicago,41.8843,-87.6324,2023-06-20,Clear,Clear conditions throughout the day.
+51,Chicago,41.8843,-87.6324,2023-06-21,Clear,Clear conditions throughout the day.
+52,Chicago,41.8843,-87.6324,2023-06-22,Partially cloudy,Partly cloudy throughout the day.
+53,Chicago,41.8843,-87.6324,2023-06-23,Partially cloudy,Clearing in the afternoon.
+54,Chicago,41.8843,-87.6324,2023-06-24,Partially cloudy,Partly cloudy throughout the day.
+55,Chicago,41.8843,-87.6324,2023-06-25,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+56,Chicago,41.8843,-87.6324,2023-06-26,"Rain, Overcast",Cloudy skies throughout the day with rain clearing later.
+57,Chicago,41.8843,-87.6324,2023-06-27,Overcast,Cloudy skies throughout the day.
+58,Chicago,41.8843,-87.6324,2023-06-28,Partially cloudy,Partly cloudy throughout the day.
+59,Chicago,41.8843,-87.6324,2023-06-29,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+60,Chicago,41.8843,-87.6324,2023-06-30,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+61,Chicago,41.8843,-87.6324,2023-07-01,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+62,Chicago,41.8843,-87.6324,2023-07-02,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+63,Chicago,41.8843,-87.6324,2023-07-03,Partially cloudy,Partly cloudy throughout the day.
+64,Chicago,41.8843,-87.6324,2023-07-04,Partially cloudy,Partly cloudy throughout the day.
+65,Chicago,41.8843,-87.6324,2023-07-05,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+66,Chicago,41.8843,-87.6324,2023-07-06,Partially cloudy,Partly cloudy throughout the day.
+67,Chicago,41.8843,-87.6324,2023-07-07,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+68,Chicago,41.8843,-87.6324,2023-07-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+69,Chicago,41.8843,-87.6324,2023-07-09,Partially cloudy,Becoming cloudy in the afternoon.
+70,Chicago,41.8843,-87.6324,2023-07-10,Clear,Clear conditions throughout the day.
+71,Chicago,41.8843,-87.6324,2023-07-11,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+72,Chicago,41.8843,-87.6324,2023-07-12,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+73,Chicago,41.8843,-87.6324,2023-07-13,"Rain, Overcast",Cloudy skies throughout the day with late afternoon rain.
+74,Chicago,41.8843,-87.6324,2023-07-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+75,Chicago,41.8843,-87.6324,2023-07-15,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+76,Chicago,41.8843,-87.6324,2023-07-16,Partially cloudy,Partly cloudy throughout the day.
+77,Chicago,41.8843,-87.6324,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+78,Chicago,41.8843,-87.6324,2023-07-18,Partially cloudy,Partly cloudy throughout the day.
+79,Chicago,41.8843,-87.6324,2023-07-19,Partially cloudy,Partly cloudy throughout the day.
+80,Chicago,41.8843,-87.6324,2023-07-20,Partially cloudy,Partly cloudy throughout the day.
+81,Chicago,41.8843,-87.6324,2023-07-21,Partially cloudy,Partly cloudy throughout the day.
+82,Chicago,41.8843,-87.6324,2023-07-22,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+83,Chicago,41.8843,-87.6324,2023-07-23,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+84,Chicago,41.8843,-87.6324,2023-07-24,Partially cloudy,Partly cloudy throughout the day.
+85,Chicago,41.8843,-87.6324,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+86,Chicago,41.8843,-87.6324,2023-07-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+87,Chicago,41.8843,-87.6324,2023-07-27,Partially cloudy,Partly cloudy throughout the day.
+88,Chicago,41.8843,-87.6324,2023-07-28,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+89,Chicago,41.8843,-87.6324,2023-07-29,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+90,Chicago,41.8843,-87.6324,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+91,Chicago,41.8843,-87.6324,2023-07-31,Partially cloudy,Becoming cloudy in the afternoon.
+92,New York,40.7146,-74.0071,2023-05-01,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+93,New York,40.7146,-74.0071,2023-05-02,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+94,New York,40.7146,-74.0071,2023-05-03,Partially cloudy,Partly cloudy throughout the day.
+95,New York,40.7146,-74.0071,2023-05-04,"Rain, Overcast",Cloudy skies throughout the day with rain in the morning and afternoon.
+96,New York,40.7146,-74.0071,2023-05-05,Partially cloudy,Partly cloudy throughout the day.
+97,New York,40.7146,-74.0071,2023-05-06,Partially cloudy,Becoming cloudy in the afternoon.
+98,New York,40.7146,-74.0071,2023-05-07,Rain,Clear conditions throughout the day with late afternoon rain.
+99,New York,40.7146,-74.0071,2023-05-08,Partially cloudy,Clearing in the afternoon.
+100,New York,40.7146,-74.0071,2023-05-09,Clear,Clear conditions throughout the day.
+101,New York,40.7146,-74.0071,2023-05-10,Clear,Clear conditions throughout the day.
+102,New York,40.7146,-74.0071,2023-05-11,Clear,Clear conditions throughout the day.
+103,New York,40.7146,-74.0071,2023-05-12,Clear,Clear conditions throughout the day.
+104,New York,40.7146,-74.0071,2023-05-13,Clear,Clear conditions throughout the day.
+105,New York,40.7146,-74.0071,2023-05-14,Clear,Clear conditions throughout the day.
+106,New York,40.7146,-74.0071,2023-05-15,Clear,Clear conditions throughout the day.
+107,New York,40.7146,-74.0071,2023-05-16,Clear,Clear conditions throughout the day.
+108,New York,40.7146,-74.0071,2023-05-17,Clear,Clear conditions throughout the day.
+109,New York,40.7146,-74.0071,2023-05-18,Clear,Clear conditions throughout the day.
+110,New York,40.7146,-74.0071,2023-05-19,Clear,Clear conditions throughout the day.
+111,New York,40.7146,-74.0071,2023-05-20,"Rain, Overcast",Cloudy skies throughout the day with rain.
+112,New York,40.7146,-74.0071,2023-05-21,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+113,New York,40.7146,-74.0071,2023-05-22,Clear,Clear conditions throughout the day.
+114,New York,40.7146,-74.0071,2023-05-23,Partially cloudy,Clearing in the afternoon.
+115,New York,40.7146,-74.0071,2023-05-24,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+116,New York,40.7146,-74.0071,2023-05-25,Clear,Clear conditions throughout the day.
+117,New York,40.7146,-74.0071,2023-05-26,Clear,Clear conditions throughout the day.
+118,New York,40.7146,-74.0071,2023-05-27,Clear,Clear conditions throughout the day.
+119,New York,40.7146,-74.0071,2023-05-28,Clear,Clear conditions throughout the day.
+120,New York,40.7146,-74.0071,2023-05-29,Clear,Clear conditions throughout the day.
+121,New York,40.7146,-74.0071,2023-05-30,Rain,Clear conditions throughout the day with morning rain.
+122,New York,40.7146,-74.0071,2023-05-31,Clear,Clear conditions throughout the day.
+123,New York,40.7146,-74.0071,2023-06-01,Rain,Clear conditions throughout the day with morning rain.
+124,New York,40.7146,-74.0071,2023-06-02,Rain,Clear conditions throughout the day with late afternoon rain.
+125,New York,40.7146,-74.0071,2023-06-03,Partially cloudy,Partly cloudy throughout the day.
+126,New York,40.7146,-74.0071,2023-06-04,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+127,New York,40.7146,-74.0071,2023-06-05,"Rain, Partially cloudy",Becoming cloudy in the afternoon with morning rain.
+128,New York,40.7146,-74.0071,2023-06-06,Clear,Clear conditions throughout the day.
+129,New York,40.7146,-74.0071,2023-06-07,Clear,Clear conditions throughout the day.
+130,New York,40.7146,-74.0071,2023-06-08,Partially cloudy,Becoming cloudy in the afternoon.
+131,New York,40.7146,-74.0071,2023-06-09,Partially cloudy,Partly cloudy throughout the day.
+132,New York,40.7146,-74.0071,2023-06-10,"Rain, Partially cloudy",Becoming cloudy in the afternoon with morning rain.
+133,New York,40.7146,-74.0071,2023-06-11,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+134,New York,40.7146,-74.0071,2023-06-12,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+135,New York,40.7146,-74.0071,2023-06-13,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+136,New York,40.7146,-74.0071,2023-06-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+137,New York,40.7146,-74.0071,2023-06-15,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+138,New York,40.7146,-74.0071,2023-06-16,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain in the morning and afternoon.
+139,New York,40.7146,-74.0071,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+140,New York,40.7146,-74.0071,2023-06-18,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+141,New York,40.7146,-74.0071,2023-06-19,Clear,Clear conditions throughout the day.
+142,New York,40.7146,-74.0071,2023-06-20,Partially cloudy,Partly cloudy throughout the day.
+143,New York,40.7146,-74.0071,2023-06-21,Partially cloudy,Partly cloudy throughout the day.
+144,New York,40.7146,-74.0071,2023-06-22,Overcast,Cloudy skies throughout the day.
+145,New York,40.7146,-74.0071,2023-06-23,"Rain, Overcast",Cloudy skies throughout the day with rain in the morning and afternoon.
+146,New York,40.7146,-74.0071,2023-06-24,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+147,New York,40.7146,-74.0071,2023-06-25,Rain,Partly cloudy throughout the day with afternoon rain.
+148,New York,40.7146,-74.0071,2023-06-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+149,New York,40.7146,-74.0071,2023-06-27,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+150,New York,40.7146,-74.0071,2023-06-28,Partially cloudy,Partly cloudy throughout the day.
+151,New York,40.7146,-74.0071,2023-06-29,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+152,New York,40.7146,-74.0071,2023-06-30,Rain,Clear conditions throughout the day with afternoon rain.
+153,New York,40.7146,-74.0071,2023-07-01,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+154,New York,40.7146,-74.0071,2023-07-02,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+155,New York,40.7146,-74.0071,2023-07-03,"Rain, Partially cloudy",Clearing in the afternoon with rain.
+156,New York,40.7146,-74.0071,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+157,New York,40.7146,-74.0071,2023-07-05,Clear,Clear conditions throughout the day.
+158,New York,40.7146,-74.0071,2023-07-06,Rain,Clear conditions throughout the day with rain in the morning and afternoon.
+159,New York,40.7146,-74.0071,2023-07-07,Partially cloudy,Partly cloudy throughout the day.
+160,New York,40.7146,-74.0071,2023-07-08,Partially cloudy,Partly cloudy throughout the day.
+161,New York,40.7146,-74.0071,2023-07-09,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+162,New York,40.7146,-74.0071,2023-07-10,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+163,New York,40.7146,-74.0071,2023-07-11,Rain,Clear conditions throughout the day with late afternoon rain.
+164,New York,40.7146,-74.0071,2023-07-12,Rain,Clear conditions throughout the day with late afternoon rain.
+165,New York,40.7146,-74.0071,2023-07-13,Clear,Clear conditions throughout the day.
+166,New York,40.7146,-74.0071,2023-07-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+167,New York,40.7146,-74.0071,2023-07-15,"Rain, Partially cloudy",Clearing in the afternoon with rain.
+168,New York,40.7146,-74.0071,2023-07-16,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+169,New York,40.7146,-74.0071,2023-07-17,Partially cloudy,Clearing in the afternoon.
+170,New York,40.7146,-74.0071,2023-07-18,Rain,Clear conditions throughout the day with afternoon rain.
+171,New York,40.7146,-74.0071,2023-07-19,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+172,New York,40.7146,-74.0071,2023-07-20,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+173,New York,40.7146,-74.0071,2023-07-21,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+174,New York,40.7146,-74.0071,2023-07-22,Rain,Clear conditions throughout the day with rain.
+175,New York,40.7146,-74.0071,2023-07-23,Clear,Clear conditions throughout the day.
+176,New York,40.7146,-74.0071,2023-07-24,Clear,Clear conditions throughout the day.
+177,New York,40.7146,-74.0071,2023-07-25,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+178,New York,40.7146,-74.0071,2023-07-26,Rain,Clear conditions throughout the day with afternoon rain.
+179,New York,40.7146,-74.0071,2023-07-27,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+180,New York,40.7146,-74.0071,2023-07-28,"Rain, Partially cloudy",Clearing in the afternoon with morning rain.
+181,New York,40.7146,-74.0071,2023-07-29,"Rain, Partially cloudy",Clearing in the afternoon with rain.
+182,New York,40.7146,-74.0071,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+183,New York,40.7146,-74.0071,2023-07-31,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+184,Los Angeles,34.0536,-118.245,2023-05-01,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+185,Los Angeles,34.0536,-118.245,2023-05-02,Partially cloudy,Partly cloudy throughout the day.
+186,Los Angeles,34.0536,-118.245,2023-05-03,Partially cloudy,Becoming cloudy in the afternoon.
+187,Los Angeles,34.0536,-118.245,2023-05-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+188,Los Angeles,34.0536,-118.245,2023-05-05,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+189,Los Angeles,34.0536,-118.245,2023-05-06,Clear,Clear conditions throughout the day.
+190,Los Angeles,34.0536,-118.245,2023-05-07,Clear,Clear conditions throughout the day.
+191,Los Angeles,34.0536,-118.245,2023-05-08,Partially cloudy,Clearing in the afternoon.
+192,Los Angeles,34.0536,-118.245,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+193,Los Angeles,34.0536,-118.245,2023-05-10,Partially cloudy,Partly cloudy throughout the day.
+194,Los Angeles,34.0536,-118.245,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+195,Los Angeles,34.0536,-118.245,2023-05-12,Clear,Clear conditions throughout the day.
+196,Los Angeles,34.0536,-118.245,2023-05-13,Partially cloudy,Clearing in the afternoon.
+197,Los Angeles,34.0536,-118.245,2023-05-14,Partially cloudy,Clearing in the afternoon.
+198,Los Angeles,34.0536,-118.245,2023-05-15,Partially cloudy,Partly cloudy throughout the day.
+199,Los Angeles,34.0536,-118.245,2023-05-16,Partially cloudy,Clearing in the afternoon.
+200,Los Angeles,34.0536,-118.245,2023-05-17,Partially cloudy,Clearing in the afternoon.
+201,Los Angeles,34.0536,-118.245,2023-05-18,Partially cloudy,Partly cloudy throughout the day.
+202,Los Angeles,34.0536,-118.245,2023-05-19,Overcast,Cloudy skies throughout the day.
+203,Los Angeles,34.0536,-118.245,2023-05-20,Partially cloudy,Clearing in the afternoon.
+204,Los Angeles,34.0536,-118.245,2023-05-21,Partially cloudy,Clearing in the afternoon.
+205,Los Angeles,34.0536,-118.245,2023-05-22,Overcast,Cloudy skies throughout the day.
+206,Los Angeles,34.0536,-118.245,2023-05-23,"Rain, Overcast",Cloudy skies throughout the day with early morning rain.
+207,Los Angeles,34.0536,-118.245,2023-05-24,Overcast,Cloudy skies throughout the day.
+208,Los Angeles,34.0536,-118.245,2023-05-25,"Rain, Overcast",Cloudy skies throughout the day with afternoon rain.
+209,Los Angeles,34.0536,-118.245,2023-05-26,Overcast,Cloudy skies throughout the day.
+210,Los Angeles,34.0536,-118.245,2023-05-27,Partially cloudy,Partly cloudy throughout the day.
+211,Los Angeles,34.0536,-118.245,2023-05-28,Overcast,Cloudy skies throughout the day.
+212,Los Angeles,34.0536,-118.245,2023-05-29,Overcast,Cloudy skies throughout the day.
+213,Los Angeles,34.0536,-118.245,2023-05-30,Overcast,Cloudy skies throughout the day.
+214,Los Angeles,34.0536,-118.245,2023-05-31,Overcast,Cloudy skies throughout the day.
+215,Los Angeles,34.0536,-118.245,2023-06-01,Overcast,Cloudy skies throughout the day.
+216,Los Angeles,34.0536,-118.245,2023-06-02,Partially cloudy,Partly cloudy throughout the day.
+217,Los Angeles,34.0536,-118.245,2023-06-03,Partially cloudy,Clearing in the afternoon.
+218,Los Angeles,34.0536,-118.245,2023-06-04,Partially cloudy,Partly cloudy throughout the day.
+219,Los Angeles,34.0536,-118.245,2023-06-05,Overcast,Cloudy skies throughout the day.
+220,Los Angeles,34.0536,-118.245,2023-06-06,Overcast,Cloudy skies throughout the day.
+221,Los Angeles,34.0536,-118.245,2023-06-07,Partially cloudy,Partly cloudy throughout the day.
+222,Los Angeles,34.0536,-118.245,2023-06-08,Partially cloudy,Partly cloudy throughout the day.
+223,Los Angeles,34.0536,-118.245,2023-06-09,Partially cloudy,Partly cloudy throughout the day.
+224,Los Angeles,34.0536,-118.245,2023-06-10,Partially cloudy,Partly cloudy throughout the day.
+225,Los Angeles,34.0536,-118.245,2023-06-11,Overcast,Cloudy skies throughout the day.
+226,Los Angeles,34.0536,-118.245,2023-06-12,Partially cloudy,Partly cloudy throughout the day.
+227,Los Angeles,34.0536,-118.245,2023-06-13,Partially cloudy,Partly cloudy throughout the day.
+228,Los Angeles,34.0536,-118.245,2023-06-14,Partially cloudy,Partly cloudy throughout the day.
+229,Los Angeles,34.0536,-118.245,2023-06-15,Overcast,Cloudy skies throughout the day.
+230,Los Angeles,34.0536,-118.245,2023-06-16,Partially cloudy,Partly cloudy throughout the day.
+231,Los Angeles,34.0536,-118.245,2023-06-17,Partially cloudy,Clearing in the afternoon.
+232,Los Angeles,34.0536,-118.245,2023-06-18,Partially cloudy,Partly cloudy throughout the day.
+233,Los Angeles,34.0536,-118.245,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+234,Los Angeles,34.0536,-118.245,2023-06-20,Clear,Clear conditions throughout the day.
+235,Los Angeles,34.0536,-118.245,2023-06-21,Clear,Clear conditions throughout the day.
+236,Los Angeles,34.0536,-118.245,2023-06-22,Partially cloudy,Clearing in the afternoon.
+237,Los Angeles,34.0536,-118.245,2023-06-23,Partially cloudy,Clearing in the afternoon.
+238,Los Angeles,34.0536,-118.245,2023-06-24,Clear,Clear conditions throughout the day.
+239,Los Angeles,34.0536,-118.245,2023-06-25,Partially cloudy,Clearing in the afternoon.
+240,Los Angeles,34.0536,-118.245,2023-06-26,Clear,Clear conditions throughout the day.
+241,Los Angeles,34.0536,-118.245,2023-06-27,Clear,Clear conditions throughout the day.
+242,Los Angeles,34.0536,-118.245,2023-06-28,Partially cloudy,Partly cloudy throughout the day.
+243,Los Angeles,34.0536,-118.245,2023-06-29,Partially cloudy,Clearing in the afternoon.
+244,Los Angeles,34.0536,-118.245,2023-06-30,Partially cloudy,Clearing in the afternoon.
+245,Los Angeles,34.0536,-118.245,2023-07-01,Partially cloudy,Clearing in the afternoon.
+246,Los Angeles,34.0536,-118.245,2023-07-02,Partially cloudy,Clearing in the afternoon.
+247,Los Angeles,34.0536,-118.245,2023-07-03,Partially cloudy,Clearing in the afternoon.
+248,Los Angeles,34.0536,-118.245,2023-07-04,Partially cloudy,Clearing in the afternoon.
+249,Los Angeles,34.0536,-118.245,2023-07-05,Partially cloudy,Clearing in the afternoon.
+250,Los Angeles,34.0536,-118.245,2023-07-06,Partially cloudy,Clearing in the afternoon.
+251,Los Angeles,34.0536,-118.245,2023-07-07,Partially cloudy,Clearing in the afternoon.
+252,Los Angeles,34.0536,-118.245,2023-07-08,Partially cloudy,Clearing in the afternoon.
+253,Los Angeles,34.0536,-118.245,2023-07-09,Partially cloudy,Clearing in the afternoon.
+254,Los Angeles,34.0536,-118.245,2023-07-10,Clear,Clear conditions throughout the day.
+255,Los Angeles,34.0536,-118.245,2023-07-11,Clear,Clear conditions throughout the day.
+256,Los Angeles,34.0536,-118.245,2023-07-12,Clear,Clear conditions throughout the day.
+257,Los Angeles,34.0536,-118.245,2023-07-13,Clear,Clear conditions throughout the day.
+258,Los Angeles,34.0536,-118.245,2023-07-14,Clear,Clear conditions throughout the day.
+259,Los Angeles,34.0536,-118.245,2023-07-15,Clear,Clear conditions throughout the day.
+260,Los Angeles,34.0536,-118.245,2023-07-16,Clear,Clear conditions throughout the day.
+261,Los Angeles,34.0536,-118.245,2023-07-17,Clear,Clear conditions throughout the day.
+262,Los Angeles,34.0536,-118.245,2023-07-18,Clear,Clear conditions throughout the day.
+263,Los Angeles,34.0536,-118.245,2023-07-19,Clear,Clear conditions throughout the day.
+264,Los Angeles,34.0536,-118.245,2023-07-20,Clear,Clear conditions throughout the day.
+265,Los Angeles,34.0536,-118.245,2023-07-21,Clear,Clear conditions throughout the day.
+266,Los Angeles,34.0536,-118.245,2023-07-22,Partially cloudy,Clearing in the afternoon.
+267,Los Angeles,34.0536,-118.245,2023-07-23,Partially cloudy,Clearing in the afternoon.
+268,Los Angeles,34.0536,-118.245,2023-07-24,Clear,Clear conditions throughout the day.
+269,Los Angeles,34.0536,-118.245,2023-07-25,Clear,Clear conditions throughout the day.
+270,Los Angeles,34.0536,-118.245,2023-07-26,Clear,Clear conditions throughout the day.
+271,Los Angeles,34.0536,-118.245,2023-07-27,Clear,Clear conditions throughout the day.
+272,Los Angeles,34.0536,-118.245,2023-07-28,Clear,Clear conditions throughout the day.
+273,Los Angeles,34.0536,-118.245,2023-07-29,Clear,Clear conditions throughout the day.
+274,Los Angeles,34.0536,-118.245,2023-07-30,Clear,Clear conditions throughout the day.
+275,Los Angeles,34.0536,-118.245,2023-07-31,Clear,Clear conditions throughout the day.
+276,Atlanta,33.7483,-84.3911,2023-05-01,Clear,Clear conditions throughout the day.
+277,Atlanta,33.7483,-84.3911,2023-05-02,Clear,Clear conditions throughout the day.
+278,Atlanta,33.7483,-84.3911,2023-05-03,Clear,Clear conditions throughout the day.
+279,Atlanta,33.7483,-84.3911,2023-05-04,Partially cloudy,Partly cloudy throughout the day.
+280,Atlanta,33.7483,-84.3911,2023-05-05,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+281,Atlanta,33.7483,-84.3911,2023-05-06,Overcast,Cloudy skies throughout the day.
+282,Atlanta,33.7483,-84.3911,2023-05-07,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+283,Atlanta,33.7483,-84.3911,2023-05-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+284,Atlanta,33.7483,-84.3911,2023-05-09,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+285,Atlanta,33.7483,-84.3911,2023-05-10,Partially cloudy,Partly cloudy throughout the day.
+286,Atlanta,33.7483,-84.3911,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+287,Atlanta,33.7483,-84.3911,2023-05-12,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+288,Atlanta,33.7483,-84.3911,2023-05-13,Partially cloudy,Partly cloudy throughout the day.
+289,Atlanta,33.7483,-84.3911,2023-05-14,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+290,Atlanta,33.7483,-84.3911,2023-05-15,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+291,Atlanta,33.7483,-84.3911,2023-05-16,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+292,Atlanta,33.7483,-84.3911,2023-05-17,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+293,Atlanta,33.7483,-84.3911,2023-05-18,"Rain, Overcast",Cloudy skies throughout the day with rain in the morning and afternoon.
+294,Atlanta,33.7483,-84.3911,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+295,Atlanta,33.7483,-84.3911,2023-05-20,"Rain, Overcast",Cloudy skies throughout the day with late afternoon rain.
+296,Atlanta,33.7483,-84.3911,2023-05-21,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+297,Atlanta,33.7483,-84.3911,2023-05-22,"Rain, Overcast",Cloudy skies throughout the day with rain.
+298,Atlanta,33.7483,-84.3911,2023-05-23,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+299,Atlanta,33.7483,-84.3911,2023-05-24,Partially cloudy,Partly cloudy throughout the day.
+300,Atlanta,33.7483,-84.3911,2023-05-25,Partially cloudy,Partly cloudy throughout the day.
+301,Atlanta,33.7483,-84.3911,2023-05-26,Partially cloudy,Partly cloudy throughout the day.
+302,Atlanta,33.7483,-84.3911,2023-05-27,Partially cloudy,Partly cloudy throughout the day.
+303,Atlanta,33.7483,-84.3911,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+304,Atlanta,33.7483,-84.3911,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+305,Atlanta,33.7483,-84.3911,2023-05-30,Partially cloudy,Partly cloudy throughout the day.
+306,Atlanta,33.7483,-84.3911,2023-05-31,Partially cloudy,Partly cloudy throughout the day.
+307,Atlanta,33.7483,-84.3911,2023-06-01,Partially cloudy,Partly cloudy throughout the day.
+308,Atlanta,33.7483,-84.3911,2023-06-02,Partially cloudy,Becoming cloudy in the afternoon.
+309,Atlanta,33.7483,-84.3911,2023-06-03,Partially cloudy,Partly cloudy throughout the day.
+310,Atlanta,33.7483,-84.3911,2023-06-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+311,Atlanta,33.7483,-84.3911,2023-06-05,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+312,Atlanta,33.7483,-84.3911,2023-06-06,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+313,Atlanta,33.7483,-84.3911,2023-06-07,Partially cloudy,Partly cloudy throughout the day.
+314,Atlanta,33.7483,-84.3911,2023-06-08,Partially cloudy,Clearing in the afternoon.
+315,Atlanta,33.7483,-84.3911,2023-06-09,Partially cloudy,Clearing in the afternoon.
+316,Atlanta,33.7483,-84.3911,2023-06-10,Partially cloudy,Becoming cloudy in the afternoon.
+317,Atlanta,33.7483,-84.3911,2023-06-11,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+318,Atlanta,33.7483,-84.3911,2023-06-12,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+319,Atlanta,33.7483,-84.3911,2023-06-13,Partially cloudy,Partly cloudy throughout the day.
+320,Atlanta,33.7483,-84.3911,2023-06-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+321,Atlanta,33.7483,-84.3911,2023-06-15,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+322,Atlanta,33.7483,-84.3911,2023-06-16,Partially cloudy,Partly cloudy throughout the day.
+323,Atlanta,33.7483,-84.3911,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+324,Atlanta,33.7483,-84.3911,2023-06-18,Partially cloudy,Partly cloudy throughout the day.
+325,Atlanta,33.7483,-84.3911,2023-06-19,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+326,Atlanta,33.7483,-84.3911,2023-06-20,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+327,Atlanta,33.7483,-84.3911,2023-06-21,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+328,Atlanta,33.7483,-84.3911,2023-06-22,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+329,Atlanta,33.7483,-84.3911,2023-06-23,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+330,Atlanta,33.7483,-84.3911,2023-06-24,Partially cloudy,Partly cloudy throughout the day.
+331,Atlanta,33.7483,-84.3911,2023-06-25,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+332,Atlanta,33.7483,-84.3911,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+333,Atlanta,33.7483,-84.3911,2023-06-27,Clear,Clear conditions throughout the day.
+334,Atlanta,33.7483,-84.3911,2023-06-28,Clear,Clear conditions throughout the day.
+335,Atlanta,33.7483,-84.3911,2023-06-29,Clear,Clear conditions throughout the day.
+336,Atlanta,33.7483,-84.3911,2023-06-30,"Rain, Partially cloudy",Becoming cloudy in the afternoon with afternoon rain.
+337,Atlanta,33.7483,-84.3911,2023-07-01,Partially cloudy,Partly cloudy throughout the day.
+338,Atlanta,33.7483,-84.3911,2023-07-02,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+339,Atlanta,33.7483,-84.3911,2023-07-03,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+340,Atlanta,33.7483,-84.3911,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+341,Atlanta,33.7483,-84.3911,2023-07-05,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+342,Atlanta,33.7483,-84.3911,2023-07-06,Partially cloudy,Partly cloudy throughout the day.
+343,Atlanta,33.7483,-84.3911,2023-07-07,Partially cloudy,Becoming cloudy in the afternoon.
+344,Atlanta,33.7483,-84.3911,2023-07-08,Partially cloudy,Partly cloudy throughout the day.
+345,Atlanta,33.7483,-84.3911,2023-07-09,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+346,Atlanta,33.7483,-84.3911,2023-07-10,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+347,Atlanta,33.7483,-84.3911,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+348,Atlanta,33.7483,-84.3911,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+349,Atlanta,33.7483,-84.3911,2023-07-13,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+350,Atlanta,33.7483,-84.3911,2023-07-14,Partially cloudy,Partly cloudy throughout the day.
+351,Atlanta,33.7483,-84.3911,2023-07-15,Partially cloudy,Partly cloudy throughout the day.
+352,Atlanta,33.7483,-84.3911,2023-07-16,Partially cloudy,Partly cloudy throughout the day.
+353,Atlanta,33.7483,-84.3911,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+354,Atlanta,33.7483,-84.3911,2023-07-18,Clear,Clear conditions throughout the day.
+355,Atlanta,33.7483,-84.3911,2023-07-19,Partially cloudy,Partly cloudy throughout the day.
+356,Atlanta,33.7483,-84.3911,2023-07-20,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+357,Atlanta,33.7483,-84.3911,2023-07-21,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+358,Atlanta,33.7483,-84.3911,2023-07-22,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+359,Atlanta,33.7483,-84.3911,2023-07-23,Partially cloudy,Partly cloudy throughout the day.
+360,Atlanta,33.7483,-84.3911,2023-07-24,Clear,Clear conditions throughout the day.
+361,Atlanta,33.7483,-84.3911,2023-07-25,Clear,Clear conditions throughout the day.
+362,Atlanta,33.7483,-84.3911,2023-07-26,Clear,Clear conditions throughout the day.
+363,Atlanta,33.7483,-84.3911,2023-07-27,Clear,Clear conditions throughout the day.
+364,Atlanta,33.7483,-84.3911,2023-07-28,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+365,Atlanta,33.7483,-84.3911,2023-07-29,Partially cloudy,Partly cloudy throughout the day.
+366,Atlanta,33.7483,-84.3911,2023-07-30,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+367,Atlanta,33.7483,-84.3911,2023-07-31,Clear,Clear conditions throughout the day.
+368,Miami,25.7748,-80.1977,2023-05-01,Clear,Clear conditions throughout the day.
+369,Miami,25.7748,-80.1977,2023-05-02,Partially cloudy,Partly cloudy throughout the day.
+370,Miami,25.7748,-80.1977,2023-05-03,Partially cloudy,Partly cloudy throughout the day.
+371,Miami,25.7748,-80.1977,2023-05-04,Partially cloudy,Partly cloudy throughout the day.
+372,Miami,25.7748,-80.1977,2023-05-05,Partially cloudy,Partly cloudy throughout the day.
+373,Miami,25.7748,-80.1977,2023-05-06,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+374,Miami,25.7748,-80.1977,2023-05-07,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+375,Miami,25.7748,-80.1977,2023-05-08,Partially cloudy,Partly cloudy throughout the day.
+376,Miami,25.7748,-80.1977,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+377,Miami,25.7748,-80.1977,2023-05-10,Clear,Clear conditions throughout the day.
+378,Miami,25.7748,-80.1977,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+379,Miami,25.7748,-80.1977,2023-05-12,Partially cloudy,Partly cloudy throughout the day.
+380,Miami,25.7748,-80.1977,2023-05-13,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+381,Miami,25.7748,-80.1977,2023-05-14,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+382,Miami,25.7748,-80.1977,2023-05-15,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+383,Miami,25.7748,-80.1977,2023-05-16,Partially cloudy,Partly cloudy throughout the day.
+384,Miami,25.7748,-80.1977,2023-05-17,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+385,Miami,25.7748,-80.1977,2023-05-18,"Rain, Partially cloudy",Becoming cloudy in the afternoon with afternoon rain.
+386,Miami,25.7748,-80.1977,2023-05-19,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+387,Miami,25.7748,-80.1977,2023-05-20,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+388,Miami,25.7748,-80.1977,2023-05-21,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+389,Miami,25.7748,-80.1977,2023-05-22,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+390,Miami,25.7748,-80.1977,2023-05-23,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+391,Miami,25.7748,-80.1977,2023-05-24,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+392,Miami,25.7748,-80.1977,2023-05-25,"Rain, Partially cloudy",Becoming cloudy in the afternoon with afternoon rain.
+393,Miami,25.7748,-80.1977,2023-05-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+394,Miami,25.7748,-80.1977,2023-05-27,"Rain, Partially cloudy",Becoming cloudy in the afternoon with afternoon rain.
+395,Miami,25.7748,-80.1977,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+396,Miami,25.7748,-80.1977,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+397,Miami,25.7748,-80.1977,2023-05-30,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+398,Miami,25.7748,-80.1977,2023-05-31,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+399,Miami,25.7748,-80.1977,2023-06-01,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+400,Miami,25.7748,-80.1977,2023-06-02,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+401,Miami,25.7748,-80.1977,2023-06-03,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+402,Miami,25.7748,-80.1977,2023-06-04,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+403,Miami,25.7748,-80.1977,2023-06-05,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+404,Miami,25.7748,-80.1977,2023-06-06,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+405,Miami,25.7748,-80.1977,2023-06-07,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+406,Miami,25.7748,-80.1977,2023-06-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+407,Miami,25.7748,-80.1977,2023-06-09,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+408,Miami,25.7748,-80.1977,2023-06-10,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+409,Miami,25.7748,-80.1977,2023-06-11,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+410,Miami,25.7748,-80.1977,2023-06-12,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+411,Miami,25.7748,-80.1977,2023-06-13,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+412,Miami,25.7748,-80.1977,2023-06-14,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+413,Miami,25.7748,-80.1977,2023-06-15,Partially cloudy,Partly cloudy throughout the day.
+414,Miami,25.7748,-80.1977,2023-06-16,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+415,Miami,25.7748,-80.1977,2023-06-17,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+416,Miami,25.7748,-80.1977,2023-06-18,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+417,Miami,25.7748,-80.1977,2023-06-19,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+418,Miami,25.7748,-80.1977,2023-06-20,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+419,Miami,25.7748,-80.1977,2023-06-21,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+420,Miami,25.7748,-80.1977,2023-06-22,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+421,Miami,25.7748,-80.1977,2023-06-23,Partially cloudy,Partly cloudy throughout the day.
+422,Miami,25.7748,-80.1977,2023-06-24,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+423,Miami,25.7748,-80.1977,2023-06-25,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+424,Miami,25.7748,-80.1977,2023-06-26,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+425,Miami,25.7748,-80.1977,2023-06-27,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+426,Miami,25.7748,-80.1977,2023-06-28,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+427,Miami,25.7748,-80.1977,2023-06-29,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+428,Miami,25.7748,-80.1977,2023-06-30,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+429,Miami,25.7748,-80.1977,2023-07-01,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+430,Miami,25.7748,-80.1977,2023-07-02,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+431,Miami,25.7748,-80.1977,2023-07-03,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+432,Miami,25.7748,-80.1977,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+433,Miami,25.7748,-80.1977,2023-07-05,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+434,Miami,25.7748,-80.1977,2023-07-06,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+435,Miami,25.7748,-80.1977,2023-07-07,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+436,Miami,25.7748,-80.1977,2023-07-08,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+437,Miami,25.7748,-80.1977,2023-07-09,Partially cloudy,Partly cloudy throughout the day.
+438,Miami,25.7748,-80.1977,2023-07-10,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+439,Miami,25.7748,-80.1977,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+440,Miami,25.7748,-80.1977,2023-07-12,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+441,Miami,25.7748,-80.1977,2023-07-13,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+442,Miami,25.7748,-80.1977,2023-07-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+443,Miami,25.7748,-80.1977,2023-07-15,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+444,Miami,25.7748,-80.1977,2023-07-16,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+445,Miami,25.7748,-80.1977,2023-07-17,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+446,Miami,25.7748,-80.1977,2023-07-18,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+447,Miami,25.7748,-80.1977,2023-07-19,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+448,Miami,25.7748,-80.1977,2023-07-20,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+449,Miami,25.7748,-80.1977,2023-07-21,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+450,Miami,25.7748,-80.1977,2023-07-22,Partially cloudy,Partly cloudy throughout the day.
+451,Miami,25.7748,-80.1977,2023-07-23,Partially cloudy,Partly cloudy throughout the day.
+452,Miami,25.7748,-80.1977,2023-07-24,Partially cloudy,Partly cloudy throughout the day.
+453,Miami,25.7748,-80.1977,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+454,Miami,25.7748,-80.1977,2023-07-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+455,Miami,25.7748,-80.1977,2023-07-27,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+456,Miami,25.7748,-80.1977,2023-07-28,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+457,Miami,25.7748,-80.1977,2023-07-29,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+458,Miami,25.7748,-80.1977,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+459,Miami,25.7748,-80.1977,2023-07-31,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+460,Houston,29.7608,-95.3695,2023-05-01,Clear,Clear conditions throughout the day.
+461,Houston,29.7608,-95.3695,2023-05-02,Partially cloudy,Partly cloudy throughout the day.
+462,Houston,29.7608,-95.3695,2023-05-03,Partially cloudy,Partly cloudy throughout the day.
+463,Houston,29.7608,-95.3695,2023-05-04,Overcast,Cloudy skies throughout the day.
+464,Houston,29.7608,-95.3695,2023-05-05,Partially cloudy,Partly cloudy throughout the day.
+465,Houston,29.7608,-95.3695,2023-05-06,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+466,Houston,29.7608,-95.3695,2023-05-07,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+467,Houston,29.7608,-95.3695,2023-05-08,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+468,Houston,29.7608,-95.3695,2023-05-09,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+469,Houston,29.7608,-95.3695,2023-05-10,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+470,Houston,29.7608,-95.3695,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+471,Houston,29.7608,-95.3695,2023-05-12,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+472,Houston,29.7608,-95.3695,2023-05-13,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+473,Houston,29.7608,-95.3695,2023-05-14,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+474,Houston,29.7608,-95.3695,2023-05-15,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+475,Houston,29.7608,-95.3695,2023-05-16,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+476,Houston,29.7608,-95.3695,2023-05-17,Partially cloudy,Partly cloudy throughout the day.
+477,Houston,29.7608,-95.3695,2023-05-18,Partially cloudy,Partly cloudy throughout the day.
+478,Houston,29.7608,-95.3695,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+479,Houston,29.7608,-95.3695,2023-05-20,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+480,Houston,29.7608,-95.3695,2023-05-21,Partially cloudy,Partly cloudy throughout the day.
+481,Houston,29.7608,-95.3695,2023-05-22,Partially cloudy,Partly cloudy throughout the day.
+482,Houston,29.7608,-95.3695,2023-05-23,Partially cloudy,Partly cloudy throughout the day.
+483,Houston,29.7608,-95.3695,2023-05-24,Partially cloudy,Clearing in the afternoon.
+484,Houston,29.7608,-95.3695,2023-05-25,Partially cloudy,Partly cloudy throughout the day.
+485,Houston,29.7608,-95.3695,2023-05-26,Partially cloudy,Clearing in the afternoon.
+486,Houston,29.7608,-95.3695,2023-05-27,Partially cloudy,Partly cloudy throughout the day.
+487,Houston,29.7608,-95.3695,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+488,Houston,29.7608,-95.3695,2023-05-29,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+489,Houston,29.7608,-95.3695,2023-05-30,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+490,Houston,29.7608,-95.3695,2023-05-31,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+491,Houston,29.7608,-95.3695,2023-06-01,Partially cloudy,Partly cloudy throughout the day.
+492,Houston,29.7608,-95.3695,2023-06-02,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+493,Houston,29.7608,-95.3695,2023-06-03,Partially cloudy,Partly cloudy throughout the day.
+494,Houston,29.7608,-95.3695,2023-06-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+495,Houston,29.7608,-95.3695,2023-06-05,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+496,Houston,29.7608,-95.3695,2023-06-06,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+497,Houston,29.7608,-95.3695,2023-06-07,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+498,Houston,29.7608,-95.3695,2023-06-08,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+499,Houston,29.7608,-95.3695,2023-06-09,Partially cloudy,Partly cloudy throughout the day.
+500,Houston,29.7608,-95.3695,2023-06-10,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+501,Houston,29.7608,-95.3695,2023-06-11,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+502,Houston,29.7608,-95.3695,2023-06-12,Partially cloudy,Partly cloudy throughout the day.
+503,Houston,29.7608,-95.3695,2023-06-13,Partially cloudy,Partly cloudy throughout the day.
+504,Houston,29.7608,-95.3695,2023-06-14,Partially cloudy,Partly cloudy throughout the day.
+505,Houston,29.7608,-95.3695,2023-06-15,Partially cloudy,Clearing in the afternoon.
+506,Houston,29.7608,-95.3695,2023-06-16,Partially cloudy,Partly cloudy throughout the day.
+507,Houston,29.7608,-95.3695,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+508,Houston,29.7608,-95.3695,2023-06-18,Partially cloudy,Clearing in the afternoon.
+509,Houston,29.7608,-95.3695,2023-06-19,Partially cloudy,Clearing in the afternoon.
+510,Houston,29.7608,-95.3695,2023-06-20,Partially cloudy,Clearing in the afternoon.
+511,Houston,29.7608,-95.3695,2023-06-21,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+512,Houston,29.7608,-95.3695,2023-06-22,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+513,Houston,29.7608,-95.3695,2023-06-23,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+514,Houston,29.7608,-95.3695,2023-06-24,Partially cloudy,Clearing in the afternoon.
+515,Houston,29.7608,-95.3695,2023-06-25,Partially cloudy,Clearing in the afternoon.
+516,Houston,29.7608,-95.3695,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+517,Houston,29.7608,-95.3695,2023-06-27,Partially cloudy,Clearing in the afternoon.
+518,Houston,29.7608,-95.3695,2023-06-28,Partially cloudy,Clearing in the afternoon.
+519,Houston,29.7608,-95.3695,2023-06-29,Clear,Clear conditions throughout the day.
+520,Houston,29.7608,-95.3695,2023-06-30,Clear,Partly cloudy throughout the day.
+521,Houston,29.7608,-95.3695,2023-07-01,Clear,Clear conditions throughout the day.
+522,Houston,29.7608,-95.3695,2023-07-02,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+523,Houston,29.7608,-95.3695,2023-07-03,Partially cloudy,Clearing in the afternoon.
+524,Houston,29.7608,-95.3695,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+525,Houston,29.7608,-95.3695,2023-07-05,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+526,Houston,29.7608,-95.3695,2023-07-06,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+527,Houston,29.7608,-95.3695,2023-07-07,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+528,Houston,29.7608,-95.3695,2023-07-08,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+529,Houston,29.7608,-95.3695,2023-07-09,Partially cloudy,Partly cloudy throughout the day.
+530,Houston,29.7608,-95.3695,2023-07-10,Partially cloudy,Partly cloudy throughout the day.
+531,Houston,29.7608,-95.3695,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+532,Houston,29.7608,-95.3695,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+533,Houston,29.7608,-95.3695,2023-07-13,Partially cloudy,Clearing in the afternoon.
+534,Houston,29.7608,-95.3695,2023-07-14,Partially cloudy,Partly cloudy throughout the day.
+535,Houston,29.7608,-95.3695,2023-07-15,Partially cloudy,Partly cloudy throughout the day.
+536,Houston,29.7608,-95.3695,2023-07-16,Partially cloudy,Clearing in the afternoon.
+537,Houston,29.7608,-95.3695,2023-07-17,Clear,Clear conditions throughout the day.
+538,Houston,29.7608,-95.3695,2023-07-18,Partially cloudy,Clearing in the afternoon.
+539,Houston,29.7608,-95.3695,2023-07-19,Partially cloudy,Clearing in the afternoon.
+540,Houston,29.7608,-95.3695,2023-07-20,Partially cloudy,Partly cloudy throughout the day.
+541,Houston,29.7608,-95.3695,2023-07-21,Partially cloudy,Partly cloudy throughout the day.
+542,Houston,29.7608,-95.3695,2023-07-22,Partially cloudy,Partly cloudy throughout the day.
+543,Houston,29.7608,-95.3695,2023-07-23,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+544,Houston,29.7608,-95.3695,2023-07-24,Partially cloudy,Partly cloudy throughout the day.
+545,Houston,29.7608,-95.3695,2023-07-25,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+546,Houston,29.7608,-95.3695,2023-07-26,Clear,Clear conditions throughout the day.
+547,Houston,29.7608,-95.3695,2023-07-27,Clear,Clear conditions throughout the day.
+548,Houston,29.7608,-95.3695,2023-07-28,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+549,Houston,29.7608,-95.3695,2023-07-29,Partially cloudy,Partly cloudy throughout the day.
+550,Houston,29.7608,-95.3695,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+551,Houston,29.7608,-95.3695,2023-07-31,Partially cloudy,Partly cloudy throughout the day.
+552,Kansas City,39.1034,-94.5831,2023-05-01,Clear,Clear conditions throughout the day.
+553,Kansas City,39.1034,-94.5831,2023-05-02,Clear,Clear conditions throughout the day.
+554,Kansas City,39.1034,-94.5831,2023-05-03,Clear,Clear conditions throughout the day.
+555,Kansas City,39.1034,-94.5831,2023-05-04,Partially cloudy,Becoming cloudy in the afternoon.
+556,Kansas City,39.1034,-94.5831,2023-05-05,Partially cloudy,Partly cloudy throughout the day.
+557,Kansas City,39.1034,-94.5831,2023-05-06,Partially cloudy,Clearing in the afternoon.
+558,Kansas City,39.1034,-94.5831,2023-05-07,Clear,Clear conditions throughout the day.
+559,Kansas City,39.1034,-94.5831,2023-05-08,"Rain, Partially cloudy",Clearing in the afternoon with early morning rain.
+560,Kansas City,39.1034,-94.5831,2023-05-09,Clear,Clear conditions throughout the day.
+561,Kansas City,39.1034,-94.5831,2023-05-10,Clear,Clear conditions throughout the day.
+562,Kansas City,39.1034,-94.5831,2023-05-11,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+563,Kansas City,39.1034,-94.5831,2023-05-12,Partially cloudy,Partly cloudy throughout the day.
+564,Kansas City,39.1034,-94.5831,2023-05-13,Rain,Clear conditions throughout the day with early morning rain.
+565,Kansas City,39.1034,-94.5831,2023-05-14,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+566,Kansas City,39.1034,-94.5831,2023-05-15,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+567,Kansas City,39.1034,-94.5831,2023-05-16,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+568,Kansas City,39.1034,-94.5831,2023-05-17,Partially cloudy,Partly cloudy throughout the day.
+569,Kansas City,39.1034,-94.5831,2023-05-18,Partially cloudy,Becoming cloudy in the afternoon.
+570,Kansas City,39.1034,-94.5831,2023-05-19,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+571,Kansas City,39.1034,-94.5831,2023-05-20,Clear,Clear conditions throughout the day.
+572,Kansas City,39.1034,-94.5831,2023-05-21,Clear,Clear conditions throughout the day.
+573,Kansas City,39.1034,-94.5831,2023-05-22,Partially cloudy,Becoming cloudy in the afternoon.
+574,Kansas City,39.1034,-94.5831,2023-05-23,Clear,Clear conditions throughout the day.
+575,Kansas City,39.1034,-94.5831,2023-05-24,Partially cloudy,Becoming cloudy in the afternoon.
+576,Kansas City,39.1034,-94.5831,2023-05-25,Rain,Clear conditions throughout the day with morning rain.
+577,Kansas City,39.1034,-94.5831,2023-05-26,Clear,Clear conditions throughout the day.
+578,Kansas City,39.1034,-94.5831,2023-05-27,Clear,Clear conditions throughout the day.
+579,Kansas City,39.1034,-94.5831,2023-05-28,Clear,Clear conditions throughout the day.
+580,Kansas City,39.1034,-94.5831,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+581,Kansas City,39.1034,-94.5831,2023-05-30,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+582,Kansas City,39.1034,-94.5831,2023-05-31,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+583,Kansas City,39.1034,-94.5831,2023-06-01,Clear,Clear conditions throughout the day.
+584,Kansas City,39.1034,-94.5831,2023-06-02,Rain,Clear conditions throughout the day with late afternoon rain.
+585,Kansas City,39.1034,-94.5831,2023-06-03,Clear,Clear conditions throughout the day.
+586,Kansas City,39.1034,-94.5831,2023-06-04,Clear,Clear conditions throughout the day.
+587,Kansas City,39.1034,-94.5831,2023-06-05,Clear,Clear conditions throughout the day.
+588,Kansas City,39.1034,-94.5831,2023-06-06,Clear,Clear conditions throughout the day.
+589,Kansas City,39.1034,-94.5831,2023-06-07,Clear,Clear conditions throughout the day.
+590,Kansas City,39.1034,-94.5831,2023-06-08,Partially cloudy,Clearing in the afternoon.
+591,Kansas City,39.1034,-94.5831,2023-06-09,Clear,Clear conditions throughout the day.
+592,Kansas City,39.1034,-94.5831,2023-06-10,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+593,Kansas City,39.1034,-94.5831,2023-06-11,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+594,Kansas City,39.1034,-94.5831,2023-06-12,Clear,Clear conditions throughout the day.
+595,Kansas City,39.1034,-94.5831,2023-06-13,Clear,Clear conditions throughout the day.
+596,Kansas City,39.1034,-94.5831,2023-06-14,Clear,Clear conditions throughout the day.
+597,Kansas City,39.1034,-94.5831,2023-06-15,Clear,Clear conditions throughout the day.
+598,Kansas City,39.1034,-94.5831,2023-06-16,Clear,Clear conditions throughout the day.
+599,Kansas City,39.1034,-94.5831,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+600,Kansas City,39.1034,-94.5831,2023-06-18,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+601,Kansas City,39.1034,-94.5831,2023-06-19,Clear,Clear conditions throughout the day.
+602,Kansas City,39.1034,-94.5831,2023-06-20,Clear,Clear conditions throughout the day.
+603,Kansas City,39.1034,-94.5831,2023-06-21,Clear,Clear conditions throughout the day.
+604,Kansas City,39.1034,-94.5831,2023-06-22,Clear,Clear conditions throughout the day.
+605,Kansas City,39.1034,-94.5831,2023-06-23,Clear,Clear conditions throughout the day.
+606,Kansas City,39.1034,-94.5831,2023-06-24,Clear,Clear conditions throughout the day.
+607,Kansas City,39.1034,-94.5831,2023-06-25,Clear,Clear conditions throughout the day.
+608,Kansas City,39.1034,-94.5831,2023-06-26,Clear,Clear conditions throughout the day.
+609,Kansas City,39.1034,-94.5831,2023-06-27,Clear,Clear conditions throughout the day.
+610,Kansas City,39.1034,-94.5831,2023-06-28,Clear,Clear conditions throughout the day.
+611,Kansas City,39.1034,-94.5831,2023-06-29,Clear,Clear conditions throughout the day.
+612,Kansas City,39.1034,-94.5831,2023-06-30,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+613,Kansas City,39.1034,-94.5831,2023-07-01,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+614,Kansas City,39.1034,-94.5831,2023-07-02,Partially cloudy,Partly cloudy throughout the day.
+615,Kansas City,39.1034,-94.5831,2023-07-03,Clear,Clear conditions throughout the day.
+616,Kansas City,39.1034,-94.5831,2023-07-04,Clear,Clear conditions throughout the day.
+617,Kansas City,39.1034,-94.5831,2023-07-05,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+618,Kansas City,39.1034,-94.5831,2023-07-06,Clear,Clear conditions throughout the day.
+619,Kansas City,39.1034,-94.5831,2023-07-07,Partially cloudy,Partly cloudy throughout the day.
+620,Kansas City,39.1034,-94.5831,2023-07-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+621,Kansas City,39.1034,-94.5831,2023-07-09,Clear,Clear conditions throughout the day.
+622,Kansas City,39.1034,-94.5831,2023-07-10,Clear,Clear conditions throughout the day.
+623,Kansas City,39.1034,-94.5831,2023-07-11,Clear,Clear conditions throughout the day.
+624,Kansas City,39.1034,-94.5831,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+625,Kansas City,39.1034,-94.5831,2023-07-13,Clear,Clear conditions throughout the day.
+626,Kansas City,39.1034,-94.5831,2023-07-14,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+627,Kansas City,39.1034,-94.5831,2023-07-15,Clear,Clear conditions throughout the day.
+628,Kansas City,39.1034,-94.5831,2023-07-16,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+629,Kansas City,39.1034,-94.5831,2023-07-17,Partially cloudy,Becoming cloudy in the afternoon.
+630,Kansas City,39.1034,-94.5831,2023-07-18,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+631,Kansas City,39.1034,-94.5831,2023-07-19,Partially cloudy,Partly cloudy throughout the day.
+632,Kansas City,39.1034,-94.5831,2023-07-20,Rain,Clear conditions throughout the day with early morning rain.
+633,Kansas City,39.1034,-94.5831,2023-07-21,Partially cloudy,Partly cloudy throughout the day.
+634,Kansas City,39.1034,-94.5831,2023-07-22,Clear,Clear conditions throughout the day.
+635,Kansas City,39.1034,-94.5831,2023-07-23,Clear,Clear conditions throughout the day.
+636,Kansas City,39.1034,-94.5831,2023-07-24,Rain,Clear conditions throughout the day with rain in the morning and afternoon.
+637,Kansas City,39.1034,-94.5831,2023-07-25,Clear,Clear conditions throughout the day.
+638,Kansas City,39.1034,-94.5831,2023-07-26,Rain,Clear conditions throughout the day with morning rain.
+639,Kansas City,39.1034,-94.5831,2023-07-27,Clear,Clear conditions throughout the day.
+640,Kansas City,39.1034,-94.5831,2023-07-28,Clear,Clear conditions throughout the day.
+641,Kansas City,39.1034,-94.5831,2023-07-29,Rain,Clear conditions throughout the day with afternoon rain.
+642,Kansas City,39.1034,-94.5831,2023-07-30,Rain,Clear conditions throughout the day with late afternoon rain.
+643,Kansas City,39.1034,-94.5831,2023-07-31,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+644,Minneapolis,44.979,-93.2649,2023-05-01,Partially cloudy,Partly cloudy throughout the day.
+645,Minneapolis,44.979,-93.2649,2023-05-02,Clear,Clear conditions throughout the day.
+646,Minneapolis,44.979,-93.2649,2023-05-03,Clear,Clear conditions throughout the day.
+647,Minneapolis,44.979,-93.2649,2023-05-04,Partially cloudy,Partly cloudy throughout the day.
+648,Minneapolis,44.979,-93.2649,2023-05-05,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+649,Minneapolis,44.979,-93.2649,2023-05-06,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+650,Minneapolis,44.979,-93.2649,2023-05-07,Partially cloudy,Partly cloudy throughout the day.
+651,Minneapolis,44.979,-93.2649,2023-05-08,Partially cloudy,Clearing in the afternoon.
+652,Minneapolis,44.979,-93.2649,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+653,Minneapolis,44.979,-93.2649,2023-05-10,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+654,Minneapolis,44.979,-93.2649,2023-05-11,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+655,Minneapolis,44.979,-93.2649,2023-05-12,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+656,Minneapolis,44.979,-93.2649,2023-05-13,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+657,Minneapolis,44.979,-93.2649,2023-05-14,"Rain, Partially cloudy",Clearing in the afternoon with rain clearing later.
+658,Minneapolis,44.979,-93.2649,2023-05-15,Clear,Clear conditions throughout the day.
+659,Minneapolis,44.979,-93.2649,2023-05-16,Partially cloudy,Partly cloudy throughout the day.
+660,Minneapolis,44.979,-93.2649,2023-05-17,Partially cloudy,Partly cloudy throughout the day.
+661,Minneapolis,44.979,-93.2649,2023-05-18,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+662,Minneapolis,44.979,-93.2649,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+663,Minneapolis,44.979,-93.2649,2023-05-20,Clear,Clear conditions throughout the day.
+664,Minneapolis,44.979,-93.2649,2023-05-21,Clear,Clear conditions throughout the day.
+665,Minneapolis,44.979,-93.2649,2023-05-22,Clear,Clear conditions throughout the day.
+666,Minneapolis,44.979,-93.2649,2023-05-23,Clear,Clear conditions throughout the day.
+667,Minneapolis,44.979,-93.2649,2023-05-24,Partially cloudy,Partly cloudy throughout the day.
+668,Minneapolis,44.979,-93.2649,2023-05-25,Partially cloudy,Clearing in the afternoon.
+669,Minneapolis,44.979,-93.2649,2023-05-26,Clear,Clear conditions throughout the day.
+670,Minneapolis,44.979,-93.2649,2023-05-27,Clear,Clear conditions throughout the day.
+671,Minneapolis,44.979,-93.2649,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+672,Minneapolis,44.979,-93.2649,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+673,Minneapolis,44.979,-93.2649,2023-05-30,"Rain, Partially cloudy",Clearing in the afternoon with rain clearing later.
+674,Minneapolis,44.979,-93.2649,2023-05-31,Partially cloudy,Partly cloudy throughout the day.
+675,Minneapolis,44.979,-93.2649,2023-06-01,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+676,Minneapolis,44.979,-93.2649,2023-06-02,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+677,Minneapolis,44.979,-93.2649,2023-06-03,Partially cloudy,Becoming cloudy in the afternoon.
+678,Minneapolis,44.979,-93.2649,2023-06-04,Clear,Clear conditions throughout the day.
+679,Minneapolis,44.979,-93.2649,2023-06-05,Partially cloudy,Partly cloudy throughout the day.
+680,Minneapolis,44.979,-93.2649,2023-06-06,Partially cloudy,Partly cloudy throughout the day.
+681,Minneapolis,44.979,-93.2649,2023-06-07,Partially cloudy,Clearing in the afternoon.
+682,Minneapolis,44.979,-93.2649,2023-06-08,Partially cloudy,Clearing in the afternoon.
+683,Minneapolis,44.979,-93.2649,2023-06-09,Clear,Clear conditions throughout the day.
+684,Minneapolis,44.979,-93.2649,2023-06-10,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+685,Minneapolis,44.979,-93.2649,2023-06-11,Clear,Clear conditions throughout the day.
+686,Minneapolis,44.979,-93.2649,2023-06-12,Partially cloudy,Partly cloudy throughout the day.
+687,Minneapolis,44.979,-93.2649,2023-06-13,Clear,Clear conditions throughout the day.
+688,Minneapolis,44.979,-93.2649,2023-06-14,Clear,Partly cloudy throughout the day.
+689,Minneapolis,44.979,-93.2649,2023-06-15,Partially cloudy,Partly cloudy throughout the day.
+690,Minneapolis,44.979,-93.2649,2023-06-16,Clear,Clear conditions throughout the day.
+691,Minneapolis,44.979,-93.2649,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+692,Minneapolis,44.979,-93.2649,2023-06-18,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+693,Minneapolis,44.979,-93.2649,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+694,Minneapolis,44.979,-93.2649,2023-06-20,Clear,Clear conditions throughout the day.
+695,Minneapolis,44.979,-93.2649,2023-06-21,Clear,Clear conditions throughout the day.
+696,Minneapolis,44.979,-93.2649,2023-06-22,Clear,Clear conditions throughout the day.
+697,Minneapolis,44.979,-93.2649,2023-06-23,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+698,Minneapolis,44.979,-93.2649,2023-06-24,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+699,Minneapolis,44.979,-93.2649,2023-06-25,"Rain, Overcast",Cloudy skies throughout the day with rain.
+700,Minneapolis,44.979,-93.2649,2023-06-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+701,Minneapolis,44.979,-93.2649,2023-06-27,Partially cloudy,Partly cloudy throughout the day.
+702,Minneapolis,44.979,-93.2649,2023-06-28,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+703,Minneapolis,44.979,-93.2649,2023-06-29,Clear,Clear conditions throughout the day.
+704,Minneapolis,44.979,-93.2649,2023-06-30,Partially cloudy,Partly cloudy throughout the day.
+705,Minneapolis,44.979,-93.2649,2023-07-01,Partially cloudy,Becoming cloudy in the afternoon.
+706,Minneapolis,44.979,-93.2649,2023-07-02,Partially cloudy,Becoming cloudy in the afternoon.
+707,Minneapolis,44.979,-93.2649,2023-07-03,"Rain, Partially cloudy",Clearing in the afternoon with rain.
+708,Minneapolis,44.979,-93.2649,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+709,Minneapolis,44.979,-93.2649,2023-07-05,Partially cloudy,Partly cloudy throughout the day.
+710,Minneapolis,44.979,-93.2649,2023-07-06,Partially cloudy,Partly cloudy throughout the day.
+711,Minneapolis,44.979,-93.2649,2023-07-07,Partially cloudy,Partly cloudy throughout the day.
+712,Minneapolis,44.979,-93.2649,2023-07-08,Partially cloudy,Partly cloudy throughout the day.
+713,Minneapolis,44.979,-93.2649,2023-07-09,Partially cloudy,Clearing in the afternoon.
+714,Minneapolis,44.979,-93.2649,2023-07-10,Partially cloudy,Clearing in the afternoon.
+715,Minneapolis,44.979,-93.2649,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+716,Minneapolis,44.979,-93.2649,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+717,Minneapolis,44.979,-93.2649,2023-07-13,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+718,Minneapolis,44.979,-93.2649,2023-07-14,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+719,Minneapolis,44.979,-93.2649,2023-07-15,Clear,Clear conditions throughout the day.
+720,Minneapolis,44.979,-93.2649,2023-07-16,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+721,Minneapolis,44.979,-93.2649,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+722,Minneapolis,44.979,-93.2649,2023-07-18,Partially cloudy,Partly cloudy throughout the day.
+723,Minneapolis,44.979,-93.2649,2023-07-19,"Rain, Partially cloudy",Clearing in the afternoon with rain.
+724,Minneapolis,44.979,-93.2649,2023-07-20,Partially cloudy,Partly cloudy throughout the day.
+725,Minneapolis,44.979,-93.2649,2023-07-21,"Rain, Partially cloudy",Becoming cloudy in the afternoon with afternoon rain.
+726,Minneapolis,44.979,-93.2649,2023-07-22,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+727,Minneapolis,44.979,-93.2649,2023-07-23,Clear,Clear conditions throughout the day.
+728,Minneapolis,44.979,-93.2649,2023-07-24,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+729,Minneapolis,44.979,-93.2649,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+730,Minneapolis,44.979,-93.2649,2023-07-26,"Rain, Partially cloudy",Clearing in the afternoon with rain clearing later.
+731,Minneapolis,44.979,-93.2649,2023-07-27,Partially cloudy,Partly cloudy throughout the day.
+732,Minneapolis,44.979,-93.2649,2023-07-28,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+733,Minneapolis,44.979,-93.2649,2023-07-29,Partially cloudy,Becoming cloudy in the afternoon.
+734,Minneapolis,44.979,-93.2649,2023-07-30,Clear,Clear conditions throughout the day.
+735,Minneapolis,44.979,-93.2649,2023-07-31,Clear,Clear conditions throughout the day.
+736,Denver,39.74,-104.992,2023-05-01,Partially cloudy,Partly cloudy throughout the day.
+737,Denver,39.74,-104.992,2023-05-02,Partially cloudy,Partly cloudy throughout the day.
+738,Denver,39.74,-104.992,2023-05-03,Partially cloudy,Partly cloudy throughout the day.
+739,Denver,39.74,-104.992,2023-05-04,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+740,Denver,39.74,-104.992,2023-05-05,Partially cloudy,Becoming cloudy in the afternoon.
+741,Denver,39.74,-104.992,2023-05-06,Partially cloudy,Partly cloudy throughout the day.
+742,Denver,39.74,-104.992,2023-05-07,Partially cloudy,Partly cloudy throughout the day.
+743,Denver,39.74,-104.992,2023-05-08,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+744,Denver,39.74,-104.992,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+745,Denver,39.74,-104.992,2023-05-10,"Rain, Overcast",Cloudy skies throughout the day with rain.
+746,Denver,39.74,-104.992,2023-05-11,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+747,Denver,39.74,-104.992,2023-05-12,"Rain, Overcast",Cloudy skies throughout the day with rain clearing later.
+748,Denver,39.74,-104.992,2023-05-13,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+749,Denver,39.74,-104.992,2023-05-14,"Rain, Overcast",Cloudy skies throughout the day with rain.
+750,Denver,39.74,-104.992,2023-05-15,"Rain, Partially cloudy",Partly cloudy throughout the day with rain clearing later.
+751,Denver,39.74,-104.992,2023-05-16,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+752,Denver,39.74,-104.992,2023-05-17,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+753,Denver,39.74,-104.992,2023-05-18,"Rain, Overcast",Cloudy skies throughout the day with rain.
+754,Denver,39.74,-104.992,2023-05-19,"Rain, Overcast",Cloudy skies throughout the day with rain.
+755,Denver,39.74,-104.992,2023-05-20,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+756,Denver,39.74,-104.992,2023-05-21,Partially cloudy,Partly cloudy throughout the day.
+757,Denver,39.74,-104.992,2023-05-22,Partially cloudy,Partly cloudy throughout the day.
+758,Denver,39.74,-104.992,2023-05-23,Partially cloudy,Partly cloudy throughout the day.
+759,Denver,39.74,-104.992,2023-05-24,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+760,Denver,39.74,-104.992,2023-05-25,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+761,Denver,39.74,-104.992,2023-05-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+762,Denver,39.74,-104.992,2023-05-27,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+763,Denver,39.74,-104.992,2023-05-28,Partially cloudy,Becoming cloudy in the afternoon.
+764,Denver,39.74,-104.992,2023-05-29,Partially cloudy,Becoming cloudy in the afternoon.
+765,Denver,39.74,-104.992,2023-05-30,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+766,Denver,39.74,-104.992,2023-05-31,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+767,Denver,39.74,-104.992,2023-06-01,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+768,Denver,39.74,-104.992,2023-06-02,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+769,Denver,39.74,-104.992,2023-06-03,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+770,Denver,39.74,-104.992,2023-06-04,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+771,Denver,39.74,-104.992,2023-06-05,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+772,Denver,39.74,-104.992,2023-06-06,"Rain, Partially cloudy",Becoming cloudy in the afternoon with rain.
+773,Denver,39.74,-104.992,2023-06-07,Partially cloudy,Partly cloudy throughout the day.
+774,Denver,39.74,-104.992,2023-06-08,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+775,Denver,39.74,-104.992,2023-06-09,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+776,Denver,39.74,-104.992,2023-06-10,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+777,Denver,39.74,-104.992,2023-06-11,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+778,Denver,39.74,-104.992,2023-06-12,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+779,Denver,39.74,-104.992,2023-06-13,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+780,Denver,39.74,-104.992,2023-06-14,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+781,Denver,39.74,-104.992,2023-06-15,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+782,Denver,39.74,-104.992,2023-06-16,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+783,Denver,39.74,-104.992,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+784,Denver,39.74,-104.992,2023-06-18,Partially cloudy,Becoming cloudy in the afternoon.
+785,Denver,39.74,-104.992,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+786,Denver,39.74,-104.992,2023-06-20,Partially cloudy,Partly cloudy throughout the day.
+787,Denver,39.74,-104.992,2023-06-21,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+788,Denver,39.74,-104.992,2023-06-22,"Rain, Partially cloudy",Partly cloudy throughout the day with a chance of rain throughout the day.
+789,Denver,39.74,-104.992,2023-06-23,"Rain, Partially cloudy",Clearing in the afternoon with early morning rain.
+790,Denver,39.74,-104.992,2023-06-24,Clear,Clear conditions throughout the day.
+791,Denver,39.74,-104.992,2023-06-25,Partially cloudy,Partly cloudy throughout the day.
+792,Denver,39.74,-104.992,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+793,Denver,39.74,-104.992,2023-06-27,Partially cloudy,Partly cloudy throughout the day.
+794,Denver,39.74,-104.992,2023-06-28,Partially cloudy,Partly cloudy throughout the day.
+795,Denver,39.74,-104.992,2023-06-29,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+796,Denver,39.74,-104.992,2023-06-30,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+797,Denver,39.74,-104.992,2023-07-01,Partially cloudy,Partly cloudy throughout the day.
+798,Denver,39.74,-104.992,2023-07-02,Partially cloudy,Partly cloudy throughout the day.
+799,Denver,39.74,-104.992,2023-07-03,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+800,Denver,39.74,-104.992,2023-07-04,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+801,Denver,39.74,-104.992,2023-07-05,"Rain, Overcast",Cloudy skies throughout the day with rain.
+802,Denver,39.74,-104.992,2023-07-06,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+803,Denver,39.74,-104.992,2023-07-07,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+804,Denver,39.74,-104.992,2023-07-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+805,Denver,39.74,-104.992,2023-07-09,Partially cloudy,Partly cloudy throughout the day.
+806,Denver,39.74,-104.992,2023-07-10,Partially cloudy,Partly cloudy throughout the day.
+807,Denver,39.74,-104.992,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+808,Denver,39.74,-104.992,2023-07-12,Partially cloudy,Becoming cloudy in the afternoon.
+809,Denver,39.74,-104.992,2023-07-13,Partially cloudy,Partly cloudy throughout the day.
+810,Denver,39.74,-104.992,2023-07-14,Partially cloudy,Partly cloudy throughout the day.
+811,Denver,39.74,-104.992,2023-07-15,Partially cloudy,Partly cloudy throughout the day.
+812,Denver,39.74,-104.992,2023-07-16,Partially cloudy,Becoming cloudy in the afternoon.
+813,Denver,39.74,-104.992,2023-07-17,Partially cloudy,Becoming cloudy in the afternoon.
+814,Denver,39.74,-104.992,2023-07-18,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+815,Denver,39.74,-104.992,2023-07-19,Partially cloudy,Partly cloudy throughout the day.
+816,Denver,39.74,-104.992,2023-07-20,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+817,Denver,39.74,-104.992,2023-07-21,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+818,Denver,39.74,-104.992,2023-07-22,Partially cloudy,Partly cloudy throughout the day.
+819,Denver,39.74,-104.992,2023-07-23,Partially cloudy,Partly cloudy throughout the day.
+820,Denver,39.74,-104.992,2023-07-24,"Rain, Partially cloudy",Becoming cloudy in the afternoon with late afternoon rain.
+821,Denver,39.74,-104.992,2023-07-25,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+822,Denver,39.74,-104.992,2023-07-26,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+823,Denver,39.74,-104.992,2023-07-27,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+824,Denver,39.74,-104.992,2023-07-28,"Rain, Partially cloudy",Partly cloudy throughout the day with afternoon rain.
+825,Denver,39.74,-104.992,2023-07-29,Partially cloudy,Partly cloudy throughout the day.
+826,Denver,39.74,-104.992,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+827,Denver,39.74,-104.992,2023-07-31,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+828,San Francisco,37.7771,-122.42,2023-05-01,"Rain, Overcast",Cloudy skies throughout the day with late afternoon rain.
+829,San Francisco,37.7771,-122.42,2023-05-02,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+830,San Francisco,37.7771,-122.42,2023-05-03,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+831,San Francisco,37.7771,-122.42,2023-05-04,"Rain, Overcast",Cloudy skies throughout the day with early morning rain.
+832,San Francisco,37.7771,-122.42,2023-05-05,"Rain, Overcast",Cloudy skies throughout the day with late afternoon rain.
+833,San Francisco,37.7771,-122.42,2023-05-06,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+834,San Francisco,37.7771,-122.42,2023-05-07,Partially cloudy,Partly cloudy throughout the day.
+835,San Francisco,37.7771,-122.42,2023-05-08,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+836,San Francisco,37.7771,-122.42,2023-05-09,Partially cloudy,Partly cloudy throughout the day.
+837,San Francisco,37.7771,-122.42,2023-05-10,Partially cloudy,Partly cloudy throughout the day.
+838,San Francisco,37.7771,-122.42,2023-05-11,Partially cloudy,Partly cloudy throughout the day.
+839,San Francisco,37.7771,-122.42,2023-05-12,Partially cloudy,Clearing in the afternoon.
+840,San Francisco,37.7771,-122.42,2023-05-13,Partially cloudy,Clearing in the afternoon.
+841,San Francisco,37.7771,-122.42,2023-05-14,Partially cloudy,Partly cloudy throughout the day.
+842,San Francisco,37.7771,-122.42,2023-05-15,Partially cloudy,Clearing in the afternoon.
+843,San Francisco,37.7771,-122.42,2023-05-16,Partially cloudy,Clearing in the afternoon.
+844,San Francisco,37.7771,-122.42,2023-05-17,Partially cloudy,Clearing in the afternoon.
+845,San Francisco,37.7771,-122.42,2023-05-18,Partially cloudy,Partly cloudy throughout the day.
+846,San Francisco,37.7771,-122.42,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+847,San Francisco,37.7771,-122.42,2023-05-20,Overcast,Cloudy skies throughout the day.
+848,San Francisco,37.7771,-122.42,2023-05-21,Partially cloudy,Partly cloudy throughout the day.
+849,San Francisco,37.7771,-122.42,2023-05-22,Partially cloudy,Clearing in the afternoon.
+850,San Francisco,37.7771,-122.42,2023-05-23,Partially cloudy,Partly cloudy throughout the day.
+851,San Francisco,37.7771,-122.42,2023-05-24,Partially cloudy,Partly cloudy throughout the day.
+852,San Francisco,37.7771,-122.42,2023-05-25,Partially cloudy,Partly cloudy throughout the day.
+853,San Francisco,37.7771,-122.42,2023-05-26,Partially cloudy,Partly cloudy throughout the day.
+854,San Francisco,37.7771,-122.42,2023-05-27,Partially cloudy,Clearing in the afternoon.
+855,San Francisco,37.7771,-122.42,2023-05-28,Overcast,Cloudy skies throughout the day.
+856,San Francisco,37.7771,-122.42,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+857,San Francisco,37.7771,-122.42,2023-05-30,Partially cloudy,Partly cloudy throughout the day.
+858,San Francisco,37.7771,-122.42,2023-05-31,Partially cloudy,Partly cloudy throughout the day.
+859,San Francisco,37.7771,-122.42,2023-06-01,Partially cloudy,Clearing in the afternoon.
+860,San Francisco,37.7771,-122.42,2023-06-02,Partially cloudy,Partly cloudy throughout the day.
+861,San Francisco,37.7771,-122.42,2023-06-03,Partially cloudy,Partly cloudy throughout the day.
+862,San Francisco,37.7771,-122.42,2023-06-04,Partially cloudy,Partly cloudy throughout the day.
+863,San Francisco,37.7771,-122.42,2023-06-05,Partially cloudy,Partly cloudy throughout the day.
+864,San Francisco,37.7771,-122.42,2023-06-06,"Rain, Partially cloudy",Partly cloudy throughout the day with rain in the morning and afternoon.
+865,San Francisco,37.7771,-122.42,2023-06-07,Partially cloudy,Partly cloudy throughout the day.
+866,San Francisco,37.7771,-122.42,2023-06-08,Partially cloudy,Partly cloudy throughout the day.
+867,San Francisco,37.7771,-122.42,2023-06-09,Partially cloudy,Partly cloudy throughout the day.
+868,San Francisco,37.7771,-122.42,2023-06-10,Partially cloudy,Partly cloudy throughout the day.
+869,San Francisco,37.7771,-122.42,2023-06-11,Partially cloudy,Partly cloudy throughout the day.
+870,San Francisco,37.7771,-122.42,2023-06-12,Partially cloudy,Partly cloudy throughout the day.
+871,San Francisco,37.7771,-122.42,2023-06-13,Partially cloudy,Partly cloudy throughout the day.
+872,San Francisco,37.7771,-122.42,2023-06-14,Partially cloudy,Partly cloudy throughout the day.
+873,San Francisco,37.7771,-122.42,2023-06-15,Partially cloudy,Clearing in the afternoon.
+874,San Francisco,37.7771,-122.42,2023-06-16,Partially cloudy,Clearing in the afternoon.
+875,San Francisco,37.7771,-122.42,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+876,San Francisco,37.7771,-122.42,2023-06-18,Partially cloudy,Partly cloudy throughout the day.
+877,San Francisco,37.7771,-122.42,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+878,San Francisco,37.7771,-122.42,2023-06-20,Clear,Clear conditions throughout the day.
+879,San Francisco,37.7771,-122.42,2023-06-21,Partially cloudy,Partly cloudy throughout the day.
+880,San Francisco,37.7771,-122.42,2023-06-22,Partially cloudy,Partly cloudy throughout the day.
+881,San Francisco,37.7771,-122.42,2023-06-23,Partially cloudy,Partly cloudy throughout the day.
+882,San Francisco,37.7771,-122.42,2023-06-24,Partially cloudy,Partly cloudy throughout the day.
+883,San Francisco,37.7771,-122.42,2023-06-25,Overcast,Cloudy skies throughout the day.
+884,San Francisco,37.7771,-122.42,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+885,San Francisco,37.7771,-122.42,2023-06-27,Overcast,Cloudy skies throughout the day.
+886,San Francisco,37.7771,-122.42,2023-06-28,Partially cloudy,Partly cloudy throughout the day.
+887,San Francisco,37.7771,-122.42,2023-06-29,Partially cloudy,Clearing in the afternoon.
+888,San Francisco,37.7771,-122.42,2023-06-30,Partially cloudy,Partly cloudy throughout the day.
+889,San Francisco,37.7771,-122.42,2023-07-01,Clear,Clear conditions throughout the day.
+890,San Francisco,37.7771,-122.42,2023-07-02,Partially cloudy,Partly cloudy throughout the day.
+891,San Francisco,37.7771,-122.42,2023-07-03,Partially cloudy,Partly cloudy throughout the day.
+892,San Francisco,37.7771,-122.42,2023-07-04,Partially cloudy,Clearing in the afternoon.
+893,San Francisco,37.7771,-122.42,2023-07-05,Partially cloudy,Clearing in the afternoon.
+894,San Francisco,37.7771,-122.42,2023-07-06,Partially cloudy,Partly cloudy throughout the day.
+895,San Francisco,37.7771,-122.42,2023-07-07,Overcast,Cloudy skies throughout the day.
+896,San Francisco,37.7771,-122.42,2023-07-08,Partially cloudy,Partly cloudy throughout the day.
+897,San Francisco,37.7771,-122.42,2023-07-09,Overcast,Cloudy skies throughout the day.
+898,San Francisco,37.7771,-122.42,2023-07-10,Partially cloudy,Clearing in the afternoon.
+899,San Francisco,37.7771,-122.42,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+900,San Francisco,37.7771,-122.42,2023-07-12,Partially cloudy,Clearing in the afternoon.
+901,San Francisco,37.7771,-122.42,2023-07-13,Partially cloudy,Clearing in the afternoon.
+902,San Francisco,37.7771,-122.42,2023-07-14,Partially cloudy,Partly cloudy throughout the day.
+903,San Francisco,37.7771,-122.42,2023-07-15,Partially cloudy,Clearing in the afternoon.
+904,San Francisco,37.7771,-122.42,2023-07-16,Partially cloudy,Partly cloudy throughout the day.
+905,San Francisco,37.7771,-122.42,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+906,San Francisco,37.7771,-122.42,2023-07-18,Partially cloudy,Partly cloudy throughout the day.
+907,San Francisco,37.7771,-122.42,2023-07-19,Partially cloudy,Clearing in the afternoon.
+908,San Francisco,37.7771,-122.42,2023-07-20,Partially cloudy,Partly cloudy throughout the day.
+909,San Francisco,37.7771,-122.42,2023-07-21,Clear,Clear conditions throughout the day.
+910,San Francisco,37.7771,-122.42,2023-07-22,Partially cloudy,Partly cloudy throughout the day.
+911,San Francisco,37.7771,-122.42,2023-07-23,Partially cloudy,Partly cloudy throughout the day.
+912,San Francisco,37.7771,-122.42,2023-07-24,Partially cloudy,Partly cloudy throughout the day.
+913,San Francisco,37.7771,-122.42,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+914,San Francisco,37.7771,-122.42,2023-07-26,Partially cloudy,Partly cloudy throughout the day.
+915,San Francisco,37.7771,-122.42,2023-07-27,Partially cloudy,Partly cloudy throughout the day.
+916,San Francisco,37.7771,-122.42,2023-07-28,Partially cloudy,Partly cloudy throughout the day.
+917,San Francisco,37.7771,-122.42,2023-07-29,Partially cloudy,Partly cloudy throughout the day.
+918,San Francisco,37.7771,-122.42,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+919,San Francisco,37.7771,-122.42,2023-07-31,Partially cloudy,Partly cloudy throughout the day.
+920,Seattle,47.6036,-122.329,2023-05-01,"Rain, Overcast",Cloudy skies throughout the day with rain.
+921,Seattle,47.6036,-122.329,2023-05-02,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+922,Seattle,47.6036,-122.329,2023-05-03,Clear,Clear conditions throughout the day.
+923,Seattle,47.6036,-122.329,2023-05-04,"Rain, Overcast",Cloudy skies throughout the day with late afternoon rain.
+924,Seattle,47.6036,-122.329,2023-05-05,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+925,Seattle,47.6036,-122.329,2023-05-06,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+926,Seattle,47.6036,-122.329,2023-05-07,Partially cloudy,Partly cloudy throughout the day.
+927,Seattle,47.6036,-122.329,2023-05-08,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+928,Seattle,47.6036,-122.329,2023-05-09,"Rain, Partially cloudy",Partly cloudy throughout the day with morning rain.
+929,Seattle,47.6036,-122.329,2023-05-10,Clear,Clear conditions throughout the day.
+930,Seattle,47.6036,-122.329,2023-05-11,Clear,Clear conditions throughout the day.
+931,Seattle,47.6036,-122.329,2023-05-12,Clear,Clear conditions throughout the day.
+932,Seattle,47.6036,-122.329,2023-05-13,Clear,Clear conditions throughout the day.
+933,Seattle,47.6036,-122.329,2023-05-14,Clear,Clear conditions throughout the day.
+934,Seattle,47.6036,-122.329,2023-05-15,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+935,Seattle,47.6036,-122.329,2023-05-16,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+936,Seattle,47.6036,-122.329,2023-05-17,Clear,Clear conditions throughout the day.
+937,Seattle,47.6036,-122.329,2023-05-18,Clear,Clear conditions throughout the day.
+938,Seattle,47.6036,-122.329,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+939,Seattle,47.6036,-122.329,2023-05-20,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+940,Seattle,47.6036,-122.329,2023-05-21,Overcast,Cloudy skies throughout the day.
+941,Seattle,47.6036,-122.329,2023-05-22,"Rain, Overcast",Cloudy skies throughout the day with rain clearing later.
+942,Seattle,47.6036,-122.329,2023-05-23,Partially cloudy,Partly cloudy throughout the day.
+943,Seattle,47.6036,-122.329,2023-05-24,Partially cloudy,Partly cloudy throughout the day.
+944,Seattle,47.6036,-122.329,2023-05-25,Clear,Clear conditions throughout the day.
+945,Seattle,47.6036,-122.329,2023-05-26,Clear,Clear conditions throughout the day.
+946,Seattle,47.6036,-122.329,2023-05-27,Partially cloudy,Partly cloudy throughout the day.
+947,Seattle,47.6036,-122.329,2023-05-28,Partially cloudy,Partly cloudy throughout the day.
+948,Seattle,47.6036,-122.329,2023-05-29,Partially cloudy,Partly cloudy throughout the day.
+949,Seattle,47.6036,-122.329,2023-05-30,Partially cloudy,Partly cloudy throughout the day.
+950,Seattle,47.6036,-122.329,2023-05-31,Partially cloudy,Partly cloudy throughout the day.
+951,Seattle,47.6036,-122.329,2023-06-01,Partially cloudy,Partly cloudy throughout the day.
+952,Seattle,47.6036,-122.329,2023-06-02,Clear,Clear conditions throughout the day.
+953,Seattle,47.6036,-122.329,2023-06-03,Clear,Clear conditions throughout the day.
+954,Seattle,47.6036,-122.329,2023-06-04,Clear,Clear conditions throughout the day.
+955,Seattle,47.6036,-122.329,2023-06-05,Clear,Clear conditions throughout the day.
+956,Seattle,47.6036,-122.329,2023-06-06,Clear,Clear conditions throughout the day.
+957,Seattle,47.6036,-122.329,2023-06-07,Clear,Clear conditions throughout the day.
+958,Seattle,47.6036,-122.329,2023-06-08,Partially cloudy,Clearing in the afternoon.
+959,Seattle,47.6036,-122.329,2023-06-09,"Rain, Overcast",Cloudy skies throughout the day with rain.
+960,Seattle,47.6036,-122.329,2023-06-10,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+961,Seattle,47.6036,-122.329,2023-06-11,Partially cloudy,Partly cloudy throughout the day.
+962,Seattle,47.6036,-122.329,2023-06-12,Clear,Clear conditions throughout the day.
+963,Seattle,47.6036,-122.329,2023-06-13,Partially cloudy,Partly cloudy throughout the day.
+964,Seattle,47.6036,-122.329,2023-06-14,Partially cloudy,Partly cloudy throughout the day.
+965,Seattle,47.6036,-122.329,2023-06-15,Partially cloudy,Partly cloudy throughout the day.
+966,Seattle,47.6036,-122.329,2023-06-16,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+967,Seattle,47.6036,-122.329,2023-06-17,"Rain, Overcast",Cloudy skies throughout the day with rain clearing later.
+968,Seattle,47.6036,-122.329,2023-06-18,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+969,Seattle,47.6036,-122.329,2023-06-19,"Rain, Overcast",Cloudy skies throughout the day with rain.
+970,Seattle,47.6036,-122.329,2023-06-20,"Rain, Overcast",Cloudy skies throughout the day with a chance of rain throughout the day.
+971,Seattle,47.6036,-122.329,2023-06-21,Partially cloudy,Partly cloudy throughout the day.
+972,Seattle,47.6036,-122.329,2023-06-22,Clear,Clear conditions throughout the day.
+973,Seattle,47.6036,-122.329,2023-06-23,Clear,Clear conditions throughout the day.
+974,Seattle,47.6036,-122.329,2023-06-24,Partially cloudy,Clearing in the afternoon.
+975,Seattle,47.6036,-122.329,2023-06-25,Clear,Clear conditions throughout the day.
+976,Seattle,47.6036,-122.329,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+977,Seattle,47.6036,-122.329,2023-06-27,Partially cloudy,Partly cloudy throughout the day.
+978,Seattle,47.6036,-122.329,2023-06-28,Partially cloudy,Clearing in the afternoon.
+979,Seattle,47.6036,-122.329,2023-06-29,Clear,Clear conditions throughout the day.
+980,Seattle,47.6036,-122.329,2023-06-30,Clear,Clear conditions throughout the day.
+981,Seattle,47.6036,-122.329,2023-07-01,Partially cloudy,Partly cloudy throughout the day.
+982,Seattle,47.6036,-122.329,2023-07-02,Clear,Clear conditions throughout the day.
+983,Seattle,47.6036,-122.329,2023-07-03,Clear,Clear conditions throughout the day.
+984,Seattle,47.6036,-122.329,2023-07-04,Clear,Clear conditions throughout the day.
+985,Seattle,47.6036,-122.329,2023-07-05,Clear,Clear conditions throughout the day.
+986,Seattle,47.6036,-122.329,2023-07-06,Clear,Clear conditions throughout the day.
+987,Seattle,47.6036,-122.329,2023-07-07,Partially cloudy,Partly cloudy throughout the day.
+988,Seattle,47.6036,-122.329,2023-07-08,Partially cloudy,Partly cloudy throughout the day.
+989,Seattle,47.6036,-122.329,2023-07-09,Clear,Clear conditions throughout the day.
+990,Seattle,47.6036,-122.329,2023-07-10,Partially cloudy,Partly cloudy throughout the day.
+991,Seattle,47.6036,-122.329,2023-07-11,Partially cloudy,Clearing in the afternoon.
+992,Seattle,47.6036,-122.329,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+993,Seattle,47.6036,-122.329,2023-07-13,Clear,Clear conditions throughout the day.
+994,Seattle,47.6036,-122.329,2023-07-14,Clear,Clear conditions throughout the day.
+995,Seattle,47.6036,-122.329,2023-07-15,Clear,Clear conditions throughout the day.
+996,Seattle,47.6036,-122.329,2023-07-16,Clear,Clear conditions throughout the day.
+997,Seattle,47.6036,-122.329,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+998,Seattle,47.6036,-122.329,2023-07-18,Clear,Clear conditions throughout the day.
+999,Seattle,47.6036,-122.329,2023-07-19,Clear,Clear conditions throughout the day.
+1000,Seattle,47.6036,-122.329,2023-07-20,Clear,Clear conditions throughout the day.
+1001,Seattle,47.6036,-122.329,2023-07-21,Partially cloudy,Partly cloudy throughout the day.
+1002,Seattle,47.6036,-122.329,2023-07-22,Partially cloudy,Clearing in the afternoon.
+1003,Seattle,47.6036,-122.329,2023-07-23,Clear,Clear conditions throughout the day.
+1004,Seattle,47.6036,-122.329,2023-07-24,"Rain, Partially cloudy",Partly cloudy throughout the day with rain.
+1005,Seattle,47.6036,-122.329,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+1006,Seattle,47.6036,-122.329,2023-07-26,Partially cloudy,Partly cloudy throughout the day.
+1007,Seattle,47.6036,-122.329,2023-07-27,Clear,Clear conditions throughout the day.
+1008,Seattle,47.6036,-122.329,2023-07-28,Partially cloudy,Clearing in the afternoon.
+1009,Seattle,47.6036,-122.329,2023-07-29,Partially cloudy,Clearing in the afternoon.
+1010,Seattle,47.6036,-122.329,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+1011,Seattle,47.6036,-122.329,2023-07-31,Clear,Clear conditions throughout the day.
+1012,Phoenix,33.4483,-112.076,2023-05-01,Partially cloudy,Partly cloudy throughout the day.
+1013,Phoenix,33.4483,-112.076,2023-05-02,Partially cloudy,Partly cloudy throughout the day.
+1014,Phoenix,33.4483,-112.076,2023-05-03,Partially cloudy,Partly cloudy throughout the day.
+1015,Phoenix,33.4483,-112.076,2023-05-04,Partially cloudy,Partly cloudy throughout the day.
+1016,Phoenix,33.4483,-112.076,2023-05-05,Clear,Clear conditions throughout the day.
+1017,Phoenix,33.4483,-112.076,2023-05-06,Partially cloudy,Partly cloudy throughout the day.
+1018,Phoenix,33.4483,-112.076,2023-05-07,Partially cloudy,Partly cloudy throughout the day.
+1019,Phoenix,33.4483,-112.076,2023-05-08,Clear,Clear conditions throughout the day.
+1020,Phoenix,33.4483,-112.076,2023-05-09,Clear,Clear conditions throughout the day.
+1021,Phoenix,33.4483,-112.076,2023-05-10,Partially cloudy,Clearing in the afternoon.
+1022,Phoenix,33.4483,-112.076,2023-05-11,Clear,Clear conditions throughout the day.
+1023,Phoenix,33.4483,-112.076,2023-05-12,Clear,Clear conditions throughout the day.
+1024,Phoenix,33.4483,-112.076,2023-05-13,Partially cloudy,Partly cloudy throughout the day.
+1025,Phoenix,33.4483,-112.076,2023-05-14,Partially cloudy,Partly cloudy throughout the day.
+1026,Phoenix,33.4483,-112.076,2023-05-15,Partially cloudy,Partly cloudy throughout the day.
+1027,Phoenix,33.4483,-112.076,2023-05-16,Partially cloudy,Partly cloudy throughout the day.
+1028,Phoenix,33.4483,-112.076,2023-05-17,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+1029,Phoenix,33.4483,-112.076,2023-05-18,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+1030,Phoenix,33.4483,-112.076,2023-05-19,Partially cloudy,Partly cloudy throughout the day.
+1031,Phoenix,33.4483,-112.076,2023-05-20,Partially cloudy,Partly cloudy throughout the day.
+1032,Phoenix,33.4483,-112.076,2023-05-21,Partially cloudy,Partly cloudy throughout the day.
+1033,Phoenix,33.4483,-112.076,2023-05-22,Clear,Clear conditions throughout the day.
+1034,Phoenix,33.4483,-112.076,2023-05-23,Clear,Clear conditions throughout the day.
+1035,Phoenix,33.4483,-112.076,2023-05-24,Clear,Clear conditions throughout the day.
+1036,Phoenix,33.4483,-112.076,2023-05-25,Clear,Clear conditions throughout the day.
+1037,Phoenix,33.4483,-112.076,2023-05-26,Clear,Clear conditions throughout the day.
+1038,Phoenix,33.4483,-112.076,2023-05-27,Clear,Clear conditions throughout the day.
+1039,Phoenix,33.4483,-112.076,2023-05-28,Clear,Clear conditions throughout the day.
+1040,Phoenix,33.4483,-112.076,2023-05-29,Clear,Clear conditions throughout the day.
+1041,Phoenix,33.4483,-112.076,2023-05-30,Clear,Clear conditions throughout the day.
+1042,Phoenix,33.4483,-112.076,2023-05-31,Clear,Clear conditions throughout the day.
+1043,Phoenix,33.4483,-112.076,2023-06-01,Clear,Clear conditions throughout the day.
+1044,Phoenix,33.4483,-112.076,2023-06-02,Partially cloudy,Partly cloudy throughout the day.
+1045,Phoenix,33.4483,-112.076,2023-06-03,Clear,Clear conditions throughout the day.
+1046,Phoenix,33.4483,-112.076,2023-06-04,Partially cloudy,Partly cloudy throughout the day.
+1047,Phoenix,33.4483,-112.076,2023-06-05,Partially cloudy,Partly cloudy throughout the day.
+1048,Phoenix,33.4483,-112.076,2023-06-06,Partially cloudy,Partly cloudy throughout the day.
+1049,Phoenix,33.4483,-112.076,2023-06-07,Partially cloudy,Partly cloudy throughout the day.
+1050,Phoenix,33.4483,-112.076,2023-06-08,Partially cloudy,Becoming cloudy in the afternoon.
+1051,Phoenix,33.4483,-112.076,2023-06-09,Partially cloudy,Partly cloudy throughout the day.
+1052,Phoenix,33.4483,-112.076,2023-06-10,Partially cloudy,Partly cloudy throughout the day.
+1053,Phoenix,33.4483,-112.076,2023-06-11,Partially cloudy,Partly cloudy throughout the day.
+1054,Phoenix,33.4483,-112.076,2023-06-12,Clear,Clear conditions throughout the day.
+1055,Phoenix,33.4483,-112.076,2023-06-13,Clear,Clear conditions throughout the day.
+1056,Phoenix,33.4483,-112.076,2023-06-14,Clear,Clear conditions throughout the day.
+1057,Phoenix,33.4483,-112.076,2023-06-15,Clear,Clear conditions throughout the day.
+1058,Phoenix,33.4483,-112.076,2023-06-16,Partially cloudy,Partly cloudy throughout the day.
+1059,Phoenix,33.4483,-112.076,2023-06-17,Partially cloudy,Partly cloudy throughout the day.
+1060,Phoenix,33.4483,-112.076,2023-06-18,Partially cloudy,Partly cloudy throughout the day.
+1061,Phoenix,33.4483,-112.076,2023-06-19,Partially cloudy,Partly cloudy throughout the day.
+1062,Phoenix,33.4483,-112.076,2023-06-20,Partially cloudy,Partly cloudy throughout the day.
+1063,Phoenix,33.4483,-112.076,2023-06-21,Partially cloudy,Partly cloudy throughout the day.
+1064,Phoenix,33.4483,-112.076,2023-06-22,Clear,Clear conditions throughout the day.
+1065,Phoenix,33.4483,-112.076,2023-06-23,Clear,Clear conditions throughout the day.
+1066,Phoenix,33.4483,-112.076,2023-06-24,Clear,Clear conditions throughout the day.
+1067,Phoenix,33.4483,-112.076,2023-06-25,Clear,Clear conditions throughout the day.
+1068,Phoenix,33.4483,-112.076,2023-06-26,Partially cloudy,Partly cloudy throughout the day.
+1069,Phoenix,33.4483,-112.076,2023-06-27,Clear,Clear conditions throughout the day.
+1070,Phoenix,33.4483,-112.076,2023-06-28,Clear,Clear conditions throughout the day.
+1071,Phoenix,33.4483,-112.076,2023-06-29,Clear,Clear conditions throughout the day.
+1072,Phoenix,33.4483,-112.076,2023-06-30,Clear,Clear conditions throughout the day.
+1073,Phoenix,33.4483,-112.076,2023-07-01,Clear,Clear conditions throughout the day.
+1074,Phoenix,33.4483,-112.076,2023-07-02,Clear,Clear conditions throughout the day.
+1075,Phoenix,33.4483,-112.076,2023-07-03,Clear,Clear conditions throughout the day.
+1076,Phoenix,33.4483,-112.076,2023-07-04,Clear,Clear conditions throughout the day.
+1077,Phoenix,33.4483,-112.076,2023-07-05,Clear,Clear conditions throughout the day.
+1078,Phoenix,33.4483,-112.076,2023-07-06,Clear,Clear conditions throughout the day.
+1079,Phoenix,33.4483,-112.076,2023-07-07,Clear,Clear conditions throughout the day.
+1080,Phoenix,33.4483,-112.076,2023-07-08,Clear,Clear conditions throughout the day.
+1081,Phoenix,33.4483,-112.076,2023-07-09,Clear,Clear conditions throughout the day.
+1082,Phoenix,33.4483,-112.076,2023-07-10,Partially cloudy,Partly cloudy throughout the day.
+1083,Phoenix,33.4483,-112.076,2023-07-11,Partially cloudy,Partly cloudy throughout the day.
+1084,Phoenix,33.4483,-112.076,2023-07-12,Partially cloudy,Partly cloudy throughout the day.
+1085,Phoenix,33.4483,-112.076,2023-07-13,Partially cloudy,Partly cloudy throughout the day.
+1086,Phoenix,33.4483,-112.076,2023-07-14,Partially cloudy,Becoming cloudy in the afternoon.
+1087,Phoenix,33.4483,-112.076,2023-07-15,Partially cloudy,Partly cloudy throughout the day.
+1088,Phoenix,33.4483,-112.076,2023-07-16,Partially cloudy,Partly cloudy throughout the day.
+1089,Phoenix,33.4483,-112.076,2023-07-17,Partially cloudy,Partly cloudy throughout the day.
+1090,Phoenix,33.4483,-112.076,2023-07-18,Partially cloudy,Partly cloudy throughout the day.
+1091,Phoenix,33.4483,-112.076,2023-07-19,Partially cloudy,Partly cloudy throughout the day.
+1092,Phoenix,33.4483,-112.076,2023-07-20,Partially cloudy,Partly cloudy throughout the day.
+1093,Phoenix,33.4483,-112.076,2023-07-21,Partially cloudy,Partly cloudy throughout the day.
+1094,Phoenix,33.4483,-112.076,2023-07-22,Partially cloudy,Partly cloudy throughout the day.
+1095,Phoenix,33.4483,-112.076,2023-07-23,Partially cloudy,Partly cloudy throughout the day.
+1096,Phoenix,33.4483,-112.076,2023-07-24,Partially cloudy,Partly cloudy throughout the day.
+1097,Phoenix,33.4483,-112.076,2023-07-25,Partially cloudy,Partly cloudy throughout the day.
+1098,Phoenix,33.4483,-112.076,2023-07-26,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
+1099,Phoenix,33.4483,-112.076,2023-07-27,"Rain, Partially cloudy",Partly cloudy throughout the day with early morning rain.
+1100,Phoenix,33.4483,-112.076,2023-07-28,Partially cloudy,Partly cloudy throughout the day.
+1101,Phoenix,33.4483,-112.076,2023-07-29,Partially cloudy,Clearing in the afternoon.
+1102,Phoenix,33.4483,-112.076,2023-07-30,Partially cloudy,Partly cloudy throughout the day.
+1103,Phoenix,33.4483,-112.076,2023-07-31,"Rain, Partially cloudy",Partly cloudy throughout the day with late afternoon rain.
