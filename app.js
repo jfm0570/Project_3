@@ -51,7 +51,7 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
         map.removeLayer(layer);
       }
     });
-  // Update map and UV Index chart
+  // Update map 
   function updateMapAndChart(selectedDate) {
   updateMap(selectedDate);
   updateUVIndexChart(selectedDate);
@@ -79,7 +79,8 @@ d3.csv("output_data/temp_humidity.csv").then(data => {
             html: `
               <div class="feels-like">${feelslike.toFixed(2)}°F</div>
 
-            `
+            ` 
+          // display content on map
           });
           const popupContent = `
             <strong>City:</strong> ${city}<br>
@@ -209,7 +210,7 @@ Papa.parse("output_data/temp_humidity.csv", {
       option.text = city;
       cityDropdown.appendChild(option);
     });
-
+    //call the function
     function updateTemperatureGraph(selectedCity) {
       const cityData = data.filter(d => d.city === selectedCity);
 
@@ -229,7 +230,7 @@ Papa.parse("output_data/temp_humidity.csv", {
       }, {});
 
       const traces = [];
-
+      //create scatter plot and graph data
       for (const date in aggregatedData) {
         const entry = aggregatedData[date];
         const averageTemp = entry.tempSum / entry.count;
@@ -243,7 +244,7 @@ Papa.parse("output_data/temp_humidity.csv", {
         };
         traces.push(temperatureTrace);
       }
-
+      //plot data
       const layout = {
         title: `Daily Temperature in ${selectedCity} May 2023-July 2023`,
         xaxis: { title: 'Date' },
@@ -275,6 +276,7 @@ Papa.parse("output_data/precipitation.csv", {
     const data = results.data;
     const uniqueCities = [...new Set(data.map(d => d.city))];
 
+  //call the function
     function updatePrecipitationGraph(selectedCity) {
       const cityData = data.filter(d => d.city === selectedCity);
 
@@ -292,7 +294,7 @@ Papa.parse("output_data/precipitation.csv", {
       }, {});
 
       const traces = [];
-
+       //create scatter plot and graph data
       for (const date in aggregatedData) {
         const entry = aggregatedData[date];
         const precipitationTrace = {
@@ -303,7 +305,7 @@ Papa.parse("output_data/precipitation.csv", {
         };
         traces.push(precipitationTrace);
       }
-
+      // plot data
       const layout = {
         title: `Daily Precipitation in ${selectedCity} May 2023-July 2023`,
         xaxis: { title: 'Date' },
